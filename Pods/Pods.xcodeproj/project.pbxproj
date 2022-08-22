@@ -1,0 +1,1566 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		007925CB7B373CEF2457BA29EB21F36C /* MaterialElevation.h in Headers */ = {isa = PBXBuildFile; fileRef = 722F8738AFDCCB94260766FBBF4AD202 /* MaterialElevation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		04295D7285B17C002ABF746D836E97FF /* DefaultColorPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4305C5E3C71030961AEB565CC0B8215 /* DefaultColorPickerViewController.swift */; };
+		07951EFE16A7D338F37AD4F558E70DA7 /* UIViewController+MaterialBottomSheet.m in Sources */ = {isa = PBXBuildFile; fileRef = F334F63AB6936F7D730A803F4FB6E2CC /* UIViewController+MaterialBottomSheet.m */; };
+		0857F4A0A5170223519A541324D501D1 /* UIViewController+MaterialBottomSheet.h in Headers */ = {isa = PBXBuildFile; fileRef = 811A15A0216F10AAFDDD84386FF4F2E0 /* UIViewController+MaterialBottomSheet.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		08784BF9A2CD964B6C9CD6576E15828E /* MaterialShadowElevationsDummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FDD93EC7D1FE8592F336A1313D3357C1 /* MaterialShadowElevationsDummy.m */; };
+		0A4E8662941AEB6D26C19AFEBC8BB768 /* MDCShapeMediator.m in Sources */ = {isa = PBXBuildFile; fileRef = F1D97E749E03B49EC30D553FCC027DC1 /* MDCShapeMediator.m */; };
+		0C76EEF9FC8B4C12C73B071124D2443F /* MDCEdgeTreatment.h in Headers */ = {isa = PBXBuildFile; fileRef = C73AE30E89AAF1E0B56342D1A122690C /* MDCEdgeTreatment.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		10B800F3E36C80713AB589FA1CF47441 /* UIColor+MaterialBlending.h in Headers */ = {isa = PBXBuildFile; fileRef = 38F7273E14F045A092EFE9B781BCE82A /* UIColor+MaterialBlending.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		11E0F8B5E2D4ABF76318A5DA04D260A0 /* MDCDraggableView.m in Sources */ = {isa = PBXBuildFile; fileRef = BBE88A96900E2CDFDA4FD34FF3404328 /* MDCDraggableView.m */; };
+		166896F7614D238E033F84793B537BC7 /* MDCSheetBehavior.m in Sources */ = {isa = PBXBuildFile; fileRef = C60647D53B8A6C09D379ACCC4FD9A3D6 /* MDCSheetBehavior.m */; };
+		18B4F45884A1AE821C55D92A82BA16EC /* MaterialBottomSheet.h in Headers */ = {isa = PBXBuildFile; fileRef = 064BF1ACFF3AB0822A5CC826992A94FF /* MaterialBottomSheet.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		18F9C48B43DB0B16D3424333B6F88A4A /* MDCPathGenerator.h in Headers */ = {isa = PBXBuildFile; fileRef = 2FA88DE149D85741407C97CA1900FE71 /* MDCPathGenerator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1DC255F222925038C5C66AB2EC838BE8 /* ComponentSliderDelegates.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3372BE0E31A45FE02A55494BA0948248 /* ComponentSliderDelegates.swift */; };
+		1E324ECCB96F9FD656C9C37AC22A9594 /* MDCBottomSheetControllerDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = F00AE0DA57BDD7E7ECD428C2D6E85AAA /* MDCBottomSheetControllerDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1EBCA4F61F06DDF25EBF84A12E325D6D /* ColorPickerControllerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C9392A866FAF5A7BC93ED9AF6F39BF6 /* ColorPickerControllerProtocol.swift */; };
+		1F36D0C890E2A668177CBD17D1E30BC2 /* MDCCurvedCornerTreatment.h in Headers */ = {isa = PBXBuildFile; fileRef = 69186B008C209349990F75ACB0F8CC61 /* MDCCurvedCornerTreatment.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2077B0D839DB673DFC4929A50A93264F /* MaterialShadowLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = B192958CAAAD236856C472CF5ADE5369 /* MaterialShadowLayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		21C2DF0761AA28A45A9F6C8DAC8BB95F /* MaterialComponents-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4056E2CB92B1022217AF4EF4C3DC5552 /* MaterialComponents-dummy.m */; };
+		23480436FE20EA0D43B753E874EAE238 /* MDCCurvedRectShapeGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = F0180CB7560AEE1009C6CD0D05CAC83A /* MDCCurvedRectShapeGenerator.m */; };
+		27E454E5203F8CC37F6E43B6FC72CAAF /* MaterialApplication.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B0467CC2CE66B0DB41A682750448D36 /* MaterialApplication.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2E0E829853E688E1425CDC52E1EFCDB2 /* ColorControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 977D43AF6B1A0F30AF21280238B9A15D /* ColorControl.swift */; };
+		2E623866A2E10A536A1C5A81A1484BEB /* MaterialShapeLibrary.h in Headers */ = {isa = PBXBuildFile; fileRef = 5BCC55AC088CA3B919870AEF7923E8AE /* MaterialShapeLibrary.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		34D86F4481D9328BF45B637B906B3122 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32D20E8E61FE391C0ED97D6F5A9EEEFD /* Foundation.framework */; };
+		39C5445892CB72E2BB1FB1BA1F38CF30 /* MDCShadowLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 504748F665BDE6378F98261A682DE915 /* MDCShadowLayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3D1F5CF84D1D9A5411C289107D5E46C4 /* MDCCurvedCornerTreatment.m in Sources */ = {isa = PBXBuildFile; fileRef = DEA2C894F27A7066145A2EF7A195158F /* MDCCurvedCornerTreatment.m */; };
+		3E16D118FE5520E9ED97FEFCB2D6FC23 /* ColorControlContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ACDBD6F6765565D1E7B394A6463A38E /* ColorControlContentView.swift */; };
+		3E7D42CBB29E683F4B21535A748ED234 /* RectangularHSBPaletteDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B84A90EDBD8A4890079F5ABE272A9C74 /* RectangularHSBPaletteDelegate.swift */; };
+		4168DDEDC0ABE4FF5BC9A2E0F7735654 /* MDCCornerTreatment+CornerTypeInitalizer.m in Sources */ = {isa = PBXBuildFile; fileRef = 64F25B0611ECFC9AAEA7B13457DD0560 /* MDCCornerTreatment+CornerTypeInitalizer.m */; };
+		43006ED7C7394CBC703AA58549754752 /* UIColor+MaterialDynamic.h in Headers */ = {isa = PBXBuildFile; fileRef = 62266B894877744006B98CAF763830E7 /* UIColor+MaterialDynamic.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		47E0C0DB2BBAB310D70EB1F307089699 /* ColorPickerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16A57BDE35D6386AA8D36EF98703FB36 /* ColorPickerDelegate.swift */; };
+		4893BBF093F4F86CB3DE86CE7804B490 /* MDCRectangleShapeGenerator.h in Headers */ = {isa = PBXBuildFile; fileRef = F800E2F61C3897D088C2827B957A2BA4 /* MDCRectangleShapeGenerator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		48CCDC527BFC92E2B5409E8E5AA83C21 /* ColorPickerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 441E2BD6A1AED98A2BBF5B970C6B71C7 /* ColorPickerController.swift */; };
+		4A929112636F1B03B707BCCDFAFA9DF1 /* UIColor+MaterialElevation.m in Sources */ = {isa = PBXBuildFile; fileRef = 1225830FFFB580C084038FDF1FF43018 /* UIColor+MaterialElevation.m */; };
+		4CC566ECE05D4C6389ADA085AE960827 /* MDCKeyboardWatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 7873ED586769E6A311FD7FEE68AE2356 /* MDCKeyboardWatcher.m */; };
+		4DBFE5EE09B12554C4D605AE2A7F030F /* MDCBottomSheetTransitionController.m in Sources */ = {isa = PBXBuildFile; fileRef = 86480D3367A87D1C8B0E51428AFABB2F /* MDCBottomSheetTransitionController.m */; };
+		515E22E4255B6073C1897BDDB091A2B8 /* DropDown+Appearance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 325CB6D0031E84AD140D46FECD1B34A5 /* DropDown+Appearance.swift */; };
+		556FE452E5E60A7FEA0A78EDCF8E97F6 /* MDCRoundedCornerTreatment.h in Headers */ = {isa = PBXBuildFile; fileRef = EDD94F61583A98BB8DF601D2A70BDAE9 /* MDCRoundedCornerTreatment.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		55F1D2607A532B555F1B182EE095A044 /* MDCBottomSheetTransitionController.h in Headers */ = {isa = PBXBuildFile; fileRef = 53B780170B043AC384450A5F41D1B604 /* MDCBottomSheetTransitionController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		595D3A56309AEA817F55172459ED16CE /* MaterialMath.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E2EFC58D1ACE24A79157B541F7DD415 /* MaterialMath.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		59FD7DC38FBCC9C83454E82DAD24CAFC /* MDCShadowLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FC6446473F6A9EDAF0BD27EF7231706 /* MDCShadowLayer.m */; };
+		5AE89E108877483FF448A4D43D1F13FE /* Pods-TimeStampCamera-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B7FBAA15596A4F660DE1DF2F21384BF /* Pods-TimeStampCamera-dummy.m */; };
+		5C620577848BDFE5534C453A6E2F1D30 /* MDCCornerTreatment.h in Headers */ = {isa = PBXBuildFile; fileRef = 66846D5548FC26829931F3861CC4FE8F /* MDCCornerTreatment.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E47EC775681C59C467F5954D516BE2D /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77C8C6C50176617E008927FBDF7FC288 /* UIViewExtension.swift */; };
+		5EDD936E994705CFF1381A7695F76204 /* MaterialKeyboardWatcher.h in Headers */ = {isa = PBXBuildFile; fileRef = B09AC7DE775BDB5887A2E306020C4499 /* MaterialKeyboardWatcher.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5F9F3A5F2887FFF46A0702548D18E111 /* MDCSlantedRectShapeGenerator.h in Headers */ = {isa = PBXBuildFile; fileRef = E4689CD7B9A2C56C35D8EBC4DCF50C63 /* MDCSlantedRectShapeGenerator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6152798C1B26D94BC915C7FC204D9F82 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BB655F8A3B9F0C3DB37D349580B2779 /* WebKit.framework */; };
+		62B0AE5C69C426B0613E35C1105A9263 /* CGPointExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC5D8466B4FD677379CCB0960397E8B2 /* CGPointExtension.swift */; };
+		62D2C55C5E6053CDBFD4F7357147B223 /* MaterialComponents-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B8EE0462272DC5A53965492035A4B89E /* MaterialComponents-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		68E1653C561E14BBEAC9CF4873570D58 /* DropDownCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 26A1138896DF07083146506F7959A92E /* DropDownCell.xib */; };
+		69128D7359FA88A5AD353CF5D77A8837 /* LimitedGestureViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 097C2848AB5C55F2754F77F956512E30 /* LimitedGestureViewDelegate.swift */; };
+		69D61566CEC2C01D069BE1912F9C2257 /* MDCCutCornerTreatment.m in Sources */ = {isa = PBXBuildFile; fileRef = 65CA789809E4EB4DF509177900C69826 /* MDCCutCornerTreatment.m */; };
+		6BEA016BDC68F0E57CDF6FE36D00D570 /* MDCSheetContainerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F9C29041C43D8D33D86806E3C8FF381 /* MDCSheetContainerView.m */; };
+		6CA88D78EDEBF118078D06712EE8C2F3 /* ColorPickerThumbView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5F51E0559F0C8A53248AC66A8A62ADD /* ColorPickerThumbView.swift */; };
+		6E0313D5DC26C640CAC73EE1108EBA38 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32D20E8E61FE391C0ED97D6F5A9EEEFD /* Foundation.framework */; };
+		714FC92F814E85A5B5405501E0FF1BF4 /* UIApplication+MDCAppExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = ADACECC7638DC5679A77AABB1628E423 /* UIApplication+MDCAppExtensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		71CA71FD244E8AB9B33C4FB32187669F /* FlexColorPicker-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 354965CBA8BB372D40135F45031EC13F /* FlexColorPicker-dummy.m */; };
+		73072DE782AA0A5FA4533D4073422AC4 /* MDCKeyboardWatcher.h in Headers */ = {isa = PBXBuildFile; fileRef = DDD46371ABEA89BE7237569B1C5402F5 /* MDCKeyboardWatcher.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		74012B832FAF67F8D62A2B27CDAFE8B5 /* DPDConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94598906AAE7B02B92C183F4F31B63C7 /* DPDConstants.swift */; };
+		7646E03FE6A36C0187301C353AA6459F /* ComponentSliderControls.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8A150E13C6613E9377014D21DD46850 /* ComponentSliderControls.swift */; };
+		77DCE2EEB10AF4A0C22A604066A18233 /* UIApplication+MDCAppExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 7551ADE0F641E5C7BD2A231654B599A4 /* UIApplication+MDCAppExtensions.m */; };
+		77DD698F6FC06A9B29DCD5CC6A3F8521 /* PaletteAwareScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8453833B7599178B8277475AEBDFD0B /* PaletteAwareScrollView.swift */; };
+		787EAA9A8DC2F09D51D359554BE06216 /* MDCSlantedRectShapeGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 25F85CA2BB90AF27AD39A33D17F262B5 /* MDCSlantedRectShapeGenerator.m */; };
+		7B5CE32FA14B2F5350A4C323B984FD2E /* Pods-TimeStampCamera-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 32E9DC2FEA0C0A97F076AC4E9A818300 /* Pods-TimeStampCamera-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8175A97966E068EE204DA842337A1254 /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D828D915A8F3580E88833C46C5891996 /* UIColorExtension.swift */; };
+		82FBB5309A78043862B74ABE56BB6274 /* UIImageViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A64B4D958FE8CE672F4B4EECF7C4D4E8 /* UIImageViewExtension.swift */; };
+		84459C4824533C9C4FD12AFC941F3CE1 /* DropDown.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3F80FCD00508B443F4E127562E43F62 /* DropDown.swift */; };
+		8740838639CB0A07D62838C670E294F6 /* ColorPreviewWithHex.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5E251D96396A046F60EC1B40056ED1B /* ColorPreviewWithHex.swift */; };
+		89A72A55273CE358DC4E7600F785C37B /* DPDKeyboardListener.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EA2550FE40BAD2B0FD10E9E254127F3 /* DPDKeyboardListener.swift */; };
+		8A72888924AEBB46318C07E7BD6DEE10 /* MDCBottomSheetController.h in Headers */ = {isa = PBXBuildFile; fileRef = A4ACCFF78092F8DC31B9F4EA76D1C3E9 /* MDCBottomSheetController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8DA3C6CF294542E420FBC089D70234F4 /* HSBColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67F73A87F46B0923BBCD88675706722E /* HSBColor.swift */; };
+		907338727C09F65DB75AA7AB9E10C3B4 /* DropDown-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F5551DFD9143F13CAA6BC0CD3679A1C1 /* DropDown-dummy.m */; };
+		9304E779EF93A87099DF87507B5E525A /* PaletteControls.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA350E41C26148C65668D021343C23C8 /* PaletteControls.swift */; };
+		93D82E2FA5AA7944649C58B8A5DB4F6E /* MDCSheetBehavior.h in Headers */ = {isa = PBXBuildFile; fileRef = 32F98BCBE67104E6C94A957C301656B5 /* MDCSheetBehavior.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		95355AF97A4A9D84DE7000A789301CA8 /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F302E6FF4101BE806BCD819D7D3CCCA6 /* GradientView.swift */; };
+		97418B166FBD270A593014C58AAED10A /* LimitedGestureCircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 033F22B88112AA6F2C12517C759AC0DE /* LimitedGestureCircleView.swift */; };
+		9CE445FA94FCD69779725FA2440A6FD8 /* AdjustedHitBoxColorControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EF55049919A0968312DE654087AD89C /* AdjustedHitBoxColorControl.swift */; };
+		9D1330DC67167B9BE31E129E9DAA5717 /* ColorPaletteDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20DE12E9155445A4D87BD694AFE4896F /* ColorPaletteDelegate.swift */; };
+		9F80D19FEC3FDBA2EC0BDFE424C14FBB /* UIColor+MaterialBlending.m in Sources */ = {isa = PBXBuildFile; fileRef = 11FC25F3FB3625E7B89C75D51E5AE684 /* UIColor+MaterialBlending.m */; };
+		A003960743CDDEA027F6585C6E66D1AA /* MDCPillShapeGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = D0CD928FDC3D7C0CF56CC4C5CDF4F3AA /* MDCPillShapeGenerator.m */; };
+		A17B1E5CB0D295F3A4C99DB6A61BCF78 /* MDCShapeMediator.h in Headers */ = {isa = PBXBuildFile; fileRef = 92FEF5F9044B65E6A4B98AC681323191 /* MDCShapeMediator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A24B021BE5D40DCCCD0102E31E468D77 /* MaterialAvailability.h in Headers */ = {isa = PBXBuildFile; fileRef = 478C52536D818BB923B8955122223064 /* MaterialAvailability.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A25BE1CE5E3EB7E7857BBAD0944841AE /* MDCElevationOverriding.h in Headers */ = {isa = PBXBuildFile; fileRef = 6CEEE77AA2D1FE14584057C185813818 /* MDCElevationOverriding.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A4363ECC3F8EA39A4FE0D8A84DABC6E0 /* CircleShapedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BD7E4025A3A2F41E2075B59C7EBF971 /* CircleShapedView.swift */; };
+		A46A2C1156C2EE6C28099360F7266381 /* MDCShadowElevations.h in Headers */ = {isa = PBXBuildFile; fileRef = E452A892B8BB83143C990BD396C3E7D0 /* MDCShadowElevations.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A4CBDE2B1DFCCBB9795F8142C739B836 /* ControlWithThumbView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 402A300E53D326C34C89D52FA857D187 /* ControlWithThumbView.swift */; };
+		A5178ED16462078EEFE039750F3FD979 /* MDCCornerTreatment+CornerTypeInitalizer.h in Headers */ = {isa = PBXBuildFile; fileRef = 9799363CA08ADDBF1D7A7E115F5742AE /* MDCCornerTreatment+CornerTypeInitalizer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A60161C5BADF9BB8676622C8D417F49C /* UIColor+MaterialDynamic.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DAFCCE2DD45CCAF95D944C1E67A622F /* UIColor+MaterialDynamic.m */; };
+		A90332024C9411863217799521D89900 /* ColorSliderControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9973C65743F5C0EEFEF78F3481B5B968 /* ColorSliderControl.swift */; };
+		AA068FACD628B4D9F72DA0B5294F8F8F /* FlexColorPicker.h in Headers */ = {isa = PBXBuildFile; fileRef = B2FD4E0FCF7F91180A2AF571CB39C4E6 /* FlexColorPicker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AAC97DF8936D6329568DB243D04281B1 /* MaterialShadowElevations.h in Headers */ = {isa = PBXBuildFile; fileRef = 97E73474E30F8FEFC9559B34BE621E3E /* MaterialShadowElevations.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AB240671C15F1E8759FE431FCDB34FF2 /* ColorPaletteControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E8A4AC3275A3C53864264A9E651D5FF /* ColorPaletteControl.swift */; };
+		AC178C8BC13F6BB812CF480DB5DF74CE /* FlexColorPicker-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C42C8920DFD841C5A62D11329487FE57 /* FlexColorPicker-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AC21AEC54003057F322B352C400BCE1A /* MDCShapedView.h in Headers */ = {isa = PBXBuildFile; fileRef = 245274FFAA1283BA9D0B6BF5A5AC7229 /* MDCShapedView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ACA03AC6678121C34C9751694E174DEC /* MDCBottomSheetPresentationController.h in Headers */ = {isa = PBXBuildFile; fileRef = 835E2E9556E9F0C45FC586F714B52CF8 /* MDCBottomSheetPresentationController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B349DFD123428C60FB84208D7495124F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32D20E8E61FE391C0ED97D6F5A9EEEFD /* Foundation.framework */; };
+		B46758C812C6906AD0270ED781633E6F /* MaterialShapes.h in Headers */ = {isa = PBXBuildFile; fileRef = 5585CACE9820C129B0E61BA94E76E95B /* MaterialShapes.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B4889B8C013EC29C883C1F1B7CE9598F /* MDCShapedShadowLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 497740F9D18592BF1FC8406C860E7204 /* MDCShapedShadowLayer.m */; };
+		B584746C59CE44E5CDF9A5C865E14AB8 /* MDCPillShapeGenerator.h in Headers */ = {isa = PBXBuildFile; fileRef = E3A5DAE664188CD8E2272DA8725F2A3B /* MDCPillShapeGenerator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B73E510E851686F8184E26986A470458 /* DPDUIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C556EC07CBEA3B7E3976D22A3012F0B4 /* DPDUIView+Extension.swift */; };
+		B7CC774FEF04EC4A5A47F24FD0D68AD3 /* MDCDraggableView.h in Headers */ = {isa = PBXBuildFile; fileRef = 0766ED7041A3561EB2722A7CCAACC663 /* MDCDraggableView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		B86419765F5D00C53B7DAEC72EA8DD8D /* UIViewWithCommonInit.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEEAB627E0BD9BC37EC575039854318F /* UIViewWithCommonInit.swift */; };
+		BCB035BFC809F5A092499DFE9319E967 /* AbstractColorControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB5F8097AC991C52E663D41FBC01930A /* AbstractColorControl.swift */; };
+		BDC10974A8641F01C5665C61EA37A153 /* DropDownCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B2CD41625214E7D4D0BEF429B176857 /* DropDownCell.swift */; };
+		BE55C082EC58C1E0D77D119C3D52D13B /* MDCBottomSheetPresentationControllerDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E8A4B20776B239473EA69C14AE80CC4 /* MDCBottomSheetPresentationControllerDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C0E08E3F92F4FD10789F379EFCB2D0C4 /* RadialHSBPaletteDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EEE8DD51CD6B8CD8E31CA0839F90B96 /* RadialHSBPaletteDelegate.swift */; };
+		C14DEA45483C8F5C1B6739CAC43C02F8 /* MDCCurvedRectShapeGenerator.h in Headers */ = {isa = PBXBuildFile; fileRef = 3B1261208C9EE0D871F07E87693985AC /* MDCCurvedRectShapeGenerator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C1F089DA25E38A92807D5A23CDA23A83 /* MDCPathGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 3640B16076D215FC5E9DC429D41F1C10 /* MDCPathGenerator.m */; };
+		C2896E99CF6C700E0CFC00B11CFFC0E4 /* UIImageExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3181901CB52D107289D82B870481ECD /* UIImageExtension.swift */; };
+		C35E010C63E824F3D00B67D4C5E0159E /* MDCDraggableViewDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 2AF8EEE74DEA74FFCBF27BDA5943E00E /* MDCDraggableViewDelegate.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C45FA039C0EA19762B0FC4963582F5F6 /* MDCShapedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 06E520448902E3437A1BD8E6FEAFF34B /* MDCShapedView.m */; };
+		C4839299FFC04CC32EE57EE475609956 /* MDCMath.h in Headers */ = {isa = PBXBuildFile; fileRef = C05DDCC689CAE727FDB83C47EE0FA894 /* MDCMath.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C7459A453B5A596D1F88B4ECA19A266C /* MDCBottomSheetController.m in Sources */ = {isa = PBXBuildFile; fileRef = 039FA31BED526BC7D04DE5A953F59911 /* MDCBottomSheetController.m */; };
+		C8F0F085A4D93EFA7D77D622698C0951 /* MDCElevatable.h in Headers */ = {isa = PBXBuildFile; fileRef = 0CFEA0674E2CE1DE3B5AE82B56706D0D /* MDCElevatable.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CA783762E9CE22EC71B1EC5FE8BC34D2 /* MDCCornerTreatment.m in Sources */ = {isa = PBXBuildFile; fileRef = AE3D3C8AA06E999137D9F117D7B01954 /* MDCCornerTreatment.m */; };
+		CAC33CCE1FEFD437D50AE236282065DD /* MaterialColor.h in Headers */ = {isa = PBXBuildFile; fileRef = 29EAB710A321DD874DE987A327F2D520 /* MaterialColor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CD136E74E4DABD689B8CF1D6115F9830 /* MDCSheetState.h in Headers */ = {isa = PBXBuildFile; fileRef = AD2AFE58EC2F1881BD914584CF3F97B4 /* MDCSheetState.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CE5067B38ACA71E582DF300E3DCD7372 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32D20E8E61FE391C0ED97D6F5A9EEEFD /* Foundation.framework */; };
+		CE7F3874F5E191A93827397D3C7E79AB /* MDCEdgeTreatment.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E3873189A33A5853534588BC1433A97 /* MDCEdgeTreatment.m */; };
+		D1703BED647A3E4280F987F8B29B7E17 /* MDCBottomSheetPresentationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1312DFF5BB1597F069D1EBF4F5BB4CEE /* MDCBottomSheetPresentationController.m */; };
+		D27AA32D14580AC0753DCF15CB0BAD0B /* UIColor+MaterialElevation.h in Headers */ = {isa = PBXBuildFile; fileRef = 297C0D836A865A87E7D99DCE752CCC9A /* UIColor+MaterialElevation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D4EB9484C1E6F8B076FB379E9A47C191 /* MDCShapedShadowLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 873C353B661D985EB06BBB4039401B86 /* MDCShapedShadowLayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D4FB61A1028C0DB237F361088D2EA3C2 /* MDCTriangleEdgeTreatment.m in Sources */ = {isa = PBXBuildFile; fileRef = FB0896E867902ED3583982B19ADA8DF7 /* MDCTriangleEdgeTreatment.m */; };
+		D5F176895ACE0E36002E762A311F2D23 /* MDCSheetContainerViewDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = DD2EEDF6167143DEC1B03E2FC8FAEBFB /* MDCSheetContainerViewDelegate.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		D8030EC717AFD50138FA1A12BDA85A7A /* MDCCutCornerTreatment.h in Headers */ = {isa = PBXBuildFile; fileRef = E4636777EB3B0D353C247BC15EDA2DC3 /* MDCCutCornerTreatment.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DA12283CA4873463ED2EF22DC6636F4F /* UIView+MaterialElevationResponding.h in Headers */ = {isa = PBXBuildFile; fileRef = 74863807EFAA1D469C80C1F86921812E /* UIView+MaterialElevationResponding.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E0A8C46EEE733B55971B1CC5ED65C9AA /* DropDown-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B11B769415FF229C80EF59A688DC0F54 /* DropDown-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E4CB3D731330D33F7F2A87BDF02E1A44 /* MDCRoundedCornerTreatment.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F00352777A089890F31AC338B07CAD1 /* MDCRoundedCornerTreatment.m */; };
+		E78AAB1EDC765339242F9C5F53EEE76C /* MDCSheetContainerView.h in Headers */ = {isa = PBXBuildFile; fileRef = 24288D039CE6F37D935EAC02CA899B2B /* MDCSheetContainerView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		E79131FF7E60950C31430BD4D9BB7520 /* MDCRectangleShapeGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = A4598288B9FB98AD1010A048BEFE3A87 /* MDCRectangleShapeGenerator.m */; };
+		ED2CDFAC7C9C9E3FDB95A031B8380E25 /* UIView+MaterialElevationResponding.m in Sources */ = {isa = PBXBuildFile; fileRef = 3079809951B80BF71EDB0D085FFA4EAB /* UIView+MaterialElevationResponding.m */; };
+		F075E0626B9906C0B26DAFB35893F031 /* MDCShapeGenerating.h in Headers */ = {isa = PBXBuildFile; fileRef = 354062790348E8A591F23589175630DD /* MDCShapeGenerating.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F405D02F5D0CAC7B45605E8DAA390011 /* MDCAvailability.h in Headers */ = {isa = PBXBuildFile; fileRef = 6AC942461649830E2A91385C9D8AD306 /* MDCAvailability.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F47ADF6F6C2B9137A8972E40AD2D2C29 /* CustomColorPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8B9D233CCEB913732C5FB0AD8D34E3A /* CustomColorPickerViewController.swift */; };
+		F68093DB103F95209DE487501DB4D8E7 /* MDCTriangleEdgeTreatment.h in Headers */ = {isa = PBXBuildFile; fileRef = FD75BE53679BE8D557CE9BD541505013 /* MDCTriangleEdgeTreatment.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FA4165C30F007120A0061D64985A1C3E /* CGRectExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C42C2DEE6A2275869931CBE94E6B7216 /* CGRectExtension.swift */; };
+		FA90AA80C6FD95C594DFD4955C3EA556 /* ColorSliderDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C220558003C1BF5509E98B0BF601779 /* ColorSliderDelegate.swift */; };
+		FBC9948E28523D40349053038524CE98 /* MaterialMathDummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D815EC155B0B483803E1AE7AAB1C674 /* MaterialMathDummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C10C771068A0728DDEC6CE969BC1421B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E9F9401E9C74C0C393164FD8D86D0068;
+			remoteInfo = DropDown;
+		};
+		D843C3141530A35C618279112C6BFE37 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9A9A6DFBF33C0809BD9B32C8C8B776E8;
+			remoteInfo = FlexColorPicker;
+		};
+		FB43ED1B2CFB49C7F5E6D69F905D5F34 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B4723B5744013DF08BE3A5FEAA286944;
+			remoteInfo = MaterialComponents;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		033F22B88112AA6F2C12517C759AC0DE /* LimitedGestureCircleView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LimitedGestureCircleView.swift; path = FlexColorPicker/Classes/Views/LimitedGestureCircleView.swift; sourceTree = "<group>"; };
+		039FA31BED526BC7D04DE5A953F59911 /* MDCBottomSheetController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MDCBottomSheetController.m; path = components/BottomSheet/src/MDCBottomSheetController.m; sourceTree = "<group>"; };
+		064BF1ACFF3AB0822A5CC826992A94FF /* MaterialBottomSheet.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MaterialBottomSheet.h; path = components/BottomSheet/src/MaterialBottomSheet.h; sourceTree = "<group>"; };
+		06E520448902E3437A1BD8E6FEAFF34B /* MDCShapedView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MDCShapedView.m; path = components/Shapes/src/MDCShapedView.m; sourceTree = "<group>"; };
+		0766ED7041A3561EB2722A7CCAACC663 /* MDCDraggableView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDCDraggableView.h; path = components/BottomSheet/src/private/MDCDraggableView.h; sourceTree = "<group>"; };
+		097C2848AB5C55F2754F77F956512E30 /* LimitedGestureViewDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LimitedGestureViewDelegate.swift; path = FlexColorPicker/Classes/Utilities/LimitedGestureViewDelegate.swift; sourceTree = "<group>"; };
+		0CFEA0674E2CE1DE3B5AE82B56706D0D /* MDCElevatable.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDCElevatable.h; path = components/Elevation/src/MDCElevatable.h; sourceTree = "<group>"; };
+		11FC25F3FB3625E7B89C75D51E5AE684 /* UIColor+MaterialBlending.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIColor+MaterialBlending.m"; path = "components/private/Color/src/UIColor+MaterialBlending.m"; sourceTree = "<group>"; };
+		1225830FFFB580C084038FDF1FF43018 /* UIColor+MaterialElevation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIColor+MaterialElevation.m"; path = "components/Elevation/src/UIColor+MaterialElevation.m"; sourceTree = "<group>"; };
+		1312DFF5BB1597F069D1EBF4F5BB4CEE /* MDCBottomSheetPresentationController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MDCBottomSheetPresentationController.m; path = components/BottomSheet/src/MDCBottomSheetPresentationController.m; sourceTree = "<group>"; };
+		1368232C5CDD470E63612EEAC4B288A6 /* Pods-TimeStampCamera.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TimeStampCamera.debug.xcconfig"; sourceTree = "<group>"; };
+		16A57BDE35D6386AA8D36EF98703FB36 /* ColorPickerDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ColorPickerDelegate.swift; path = FlexColorPicker/Classes/ColorPickerDelegate.swift; sourceTree = "<group>"; };
+		1759382C7B1D8F3D2141E09C0AC05F45 /* MaterialComponents.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MaterialComponents.modulemap; sourceTree = "<group>"; };
+		1ACDBD6F6765565D1E7B394A6463A38E /* ColorControlContentView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ColorControlContentView.swift; path = FlexColorPicker/Classes/Views/ColorControlContentView.swift; sourceTree = "<group>"; };
+		1B2CD41625214E7D4D0BEF429B176857 /* DropDownCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DropDownCell.swift; path = DropDown/src/DropDownCell.swift; sourceTree = "<group>"; };
+		1C9392A866FAF5A7BC93ED9AF6F39BF6 /* ColorPickerControllerProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ColorPickerControllerProtocol.swift; path = FlexColorPicker/Classes/ColorPickerControllerProtocol.swift; sourceTree = "<group>"; };
+		20DE12E9155445A4D87BD694AFE4896F /* ColorPaletteDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ColorPaletteDelegate.swift; path = FlexColorPicker/Classes/ControlDelegates/ColorPaletteDelegate.swift; sourceTree = "<group>"; };
+		24288D039CE6F37D935EAC02CA899B2B /* MDCSheetContainerView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDCSheetContainerView.h; path = components/BottomSheet/src/private/MDCSheetContainerView.h; sourceTree = "<group>"; };
+		245274FFAA1283BA9D0B6BF5A5AC7229 /* MDCShapedView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDCShapedView.h; path = components/Shapes/src/MDCShapedView.h; sourceTree = "<group>"; };
+		25F85CA2BB90AF27AD39A33D17F262B5 /* MDCSlantedRectShapeGenerator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MDCSlantedRectShapeGenerator.m; path = components/ShapeLibrary/src/MDCSlantedRectShapeGenerator.m; sourceTree = "<group>"; };
+		26A1138896DF07083146506F7959A92E /* DropDownCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = DropDownCell.xib; path = DropDown/resources/DropDownCell.xib; sourceTree = "<group>"; };
+		297C0D836A865A87E7D99DCE752CCC9A /* UIColor+MaterialElevation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIColor+MaterialElevation.h"; path = "components/Elevation/src/UIColor+MaterialElevation.h"; sourceTree = "<group>"; };
+		29EAB710A321DD874DE987A327F2D520 /* MaterialColor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MaterialColor.h; path = components/private/Color/src/MaterialColor.h; sourceTree = "<group>"; };
+		2AF8EEE74DEA74FFCBF27BDA5943E00E /* MDCDraggableViewDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDCDraggableViewDelegate.h; path = components/BottomSheet/src/private/MDCDraggableViewDelegate.h; sourceTree = "<group>"; };
+		2BB655F8A3B9F0C3DB37D349580B2779 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/WebKit.framework; sourceTree = DEVELOPER_DIR; };
+		2D93CEF81D27A173344D3563A6C349FF /* DropDown.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DropDown.release.xcconfig; sourceTree = "<group>"; };
+		2EA2550FE40BAD2B0FD10E9E254127F3 /* DPDKeyboardListener.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DPDKeyboardListener.swift; path = DropDown/helpers/DPDKeyboardListener.swift; sourceTree = "<group>"; };
+		2EEE8DD51CD6B8CD8E31CA0839F90B96 /* RadialHSBPaletteDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RadialHSBPaletteDelegate.swift; path = FlexColorPicker/Classes/ControlDelegates/RadialHSBPaletteDelegate.swift; sourceTree = "<group>"; };
+		2F065AE5F87636DC8985DFFAD1E8DA18 /* DropDown.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = DropDown.modulemap; sourceTree = "<group>"; };
+		2F9C29041C43D8D33D86806E3C8FF381 /* MDCSheetContainerView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MDCSheetContainerView.m; path = components/BottomSheet/src/private/MDCSheetContainerView.m; sourceTree = "<group>"; };
+		2FA88DE149D85741407C97CA1900FE71 /* MDCPathGenerator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDCPathGenerator.h; path = components/Shapes/src/MDCPathGenerator.h; sourceTree = "<group>"; };
+		3079809951B80BF71EDB0D085FFA4EAB /* UIView+MaterialElevationResponding.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+MaterialElevationResponding.m"; path = "components/Elevation/src/UIView+MaterialElevationResponding.m"; sourceTree = "<group>"; };
+		325CB6D0031E84AD140D46FECD1B34A5 /* DropDown+Appearance.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DropDown+Appearance.swift"; path = "DropDown/src/DropDown+Appearance.swift"; sourceTree = "<group>"; };
+		32D20E8E61FE391C0ED97D6F5A9EEEFD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		32E9DC2FEA0C0A97F076AC4E9A818300 /* Pods-TimeStampCamera-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TimeStampCamera-umbrella.h"; sourceTree = "<group>"; };
+		32F98BCBE67104E6C94A957C301656B5 /* MDCSheetBehavior.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDCSheetBehavior.h; path = components/BottomSheet/src/private/MDCSheetBehavior.h; sourceTree = "<group>"; };
+		3372BE0E31A45FE02A55494BA0948248 /* ComponentSliderDelegates.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ComponentSliderDelegates.swift; path = FlexColorPicker/Classes/ControlDelegates/ComponentSliderDelegates.swift; sourceTree = "<group>"; };
+		354062790348E8A591F23589175630DD /* MDCShapeGenerating.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDCShapeGenerating.h; path = components/Shapes/src/MDCShapeGenerating.h; sourceTree = "<group>"; };
+		354965CBA8BB372D40135F45031EC13F /* FlexColorPicker-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FlexColorPicker-dummy.m"; sourceTree = "<group>"; };
+		3640B16076D215FC5E9DC429D41F1C10 /* MDCPathGenerator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MDCPathGenerator.m; path = components/Shapes/src/MDCPathGenerator.m; sourceTree = "<group>"; };
+		38F7273E14F045A092EFE9B781BCE82A /* UIColor+MaterialBlending.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIColor+MaterialBlending.h"; path = "components/private/Color/src/UIColor+MaterialBlending.h"; sourceTree = "<group>"; };
+		3B1261208C9EE0D871F07E87693985AC /* MDCCurvedRectShapeGenerator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDCCurvedRectShapeGenerator.h; path = components/ShapeLibrary/src/MDCCurvedRectShapeGenerator.h; sourceTree = "<group>"; };
+		3DAFCCE2DD45CCAF95D944C1E67A622F /* UIColor+MaterialDynamic.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIColor+MaterialDynamic.m"; path = "components/private/Color/src/UIColor+MaterialDynamic.m"; sourceTree = "<group>"; };
+		3E8A4B20776B239473EA69C14AE80CC4 /* MDCBottomSheetPresentationControllerDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDCBottomSheetPresentationControllerDelegate.h; path = components/BottomSheet/src/MDCBottomSheetPresentationControllerDelegate.h; sourceTree = "<group>"; };
+		3FC6446473F6A9EDAF0BD27EF7231706 /* MDCShadowLayer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MDCShadowLayer.m; path = components/ShadowLayer/src/MDCShadowLayer.m; sourceTree = "<group>"; };
+		402A300E53D326C34C89D52FA857D187 /* ControlWithThumbView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ControlWithThumbView.swift; path = FlexColorPicker/Classes/Controls/ControlWithThumbView.swift; sourceTree = "<group>"; };
+		4056E2CB92B1022217AF4EF4C3DC5552 /* MaterialComponents-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MaterialComponents-dummy.m"; sourceTree = "<group>"; };
+		441E2BD6A1AED98A2BBF5B970C6B71C7 /* ColorPickerController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ColorPickerController.swift; path = FlexColorPicker/Classes/ColorPickerController.swift; sourceTree = "<group>"; };
+		447A7763AFB7A334CE76558E24241DEB /* MaterialComponents-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MaterialComponents-prefix.pch"; sourceTree = "<group>"; };
+		478C52536D818BB923B8955122223064 /* MaterialAvailability.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MaterialAvailability.h; path = components/Availability/src/MaterialAvailability.h; sourceTree = "<group>"; };
+		497740F9D18592BF1FC8406C860E7204 /* MDCShapedShadowLayer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MDCShapedShadowLayer.m; path = components/Shapes/src/MDCShapedShadowLayer.m; sourceTree = "<group>"; };
+		4B7FBAA15596A4F660DE1DF2F21384BF /* Pods-TimeStampCamera-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TimeStampCamera-dummy.m"; sourceTree = "<group>"; };
+		4C220558003C1BF5509E98B0BF601779 /* ColorSliderDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ColorSliderDelegate.swift; path = FlexColorPicker/Classes/ControlDelegates/ColorSliderDelegate.swift; sourceTree = "<group>"; };
+		504748F665BDE6378F98261A682DE915 /* MDCShadowLayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDCShadowLayer.h; path = components/ShadowLayer/src/MDCShadowLayer.h; sourceTree = "<group>"; };
+		53B780170B043AC384450A5F41D1B604 /* MDCBottomSheetTransitionController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDCBottomSheetTransitionController.h; path = components/BottomSheet/src/MDCBottomSheetTransitionController.h; sourceTree = "<group>"; };
+		5585CACE9820C129B0E61BA94E76E95B /* MaterialShapes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MaterialShapes.h; path = components/Shapes/src/MaterialShapes.h; sourceTree = "<group>"; };
+		5B0467CC2CE66B0DB41A682750448D36 /* MaterialApplication.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MaterialApplication.h; path = components/private/Application/src/MaterialApplication.h; sourceTree = "<group>"; };
+		5BCC55AC088CA3B919870AEF7923E8AE /* MaterialShapeLibrary.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MaterialShapeLibrary.h; path = components/ShapeLibrary/src/MaterialShapeLibrary.h; sourceTree = "<group>"; };
+		5BFB6808F690045C93E1C039EF8C5919 /* DropDown-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DropDown-prefix.pch"; sourceTree = "<group>"; };
+		5E2EFC58D1ACE24A79157B541F7DD415 /* MaterialMath.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MaterialMath.h; path = components/private/Math/src/MaterialMath.h; sourceTree = "<group>"; };
+		62266B894877744006B98CAF763830E7 /* UIColor+MaterialDynamic.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIColor+MaterialDynamic.h"; path = "components/private/Color/src/UIColor+MaterialDynamic.h"; sourceTree = "<group>"; };
+		64F25B0611ECFC9AAEA7B13457DD0560 /* MDCCornerTreatment+CornerTypeInitalizer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "MDCCornerTreatment+CornerTypeInitalizer.m"; path = "components/ShapeLibrary/src/MDCCornerTreatment+CornerTypeInitalizer.m"; sourceTree = "<group>"; };
+		659C42CE3C22A6BFA0850AEF0A83D6E6 /* Pods-TimeStampCamera-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TimeStampCamera-frameworks.sh"; sourceTree = "<group>"; };
+		65CA789809E4EB4DF509177900C69826 /* MDCCutCornerTreatment.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MDCCutCornerTreatment.m; path = components/ShapeLibrary/src/MDCCutCornerTreatment.m; sourceTree = "<group>"; };
+		66846D5548FC26829931F3861CC4FE8F /* MDCCornerTreatment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDCCornerTreatment.h; path = components/Shapes/src/MDCCornerTreatment.h; sourceTree = "<group>"; };
+		67F73A87F46B0923BBCD88675706722E /* HSBColor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HSBColor.swift; path = FlexColorPicker/Classes/HSBColor.swift; sourceTree = "<group>"; };
+		69186B008C209349990F75ACB0F8CC61 /* MDCCurvedCornerTreatment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDCCurvedCornerTreatment.h; path = components/ShapeLibrary/src/MDCCurvedCornerTreatment.h; sourceTree = "<group>"; };
+		6AC942461649830E2A91385C9D8AD306 /* MDCAvailability.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDCAvailability.h; path = components/Availability/src/MDCAvailability.h; sourceTree = "<group>"; };
+		6CEEE77AA2D1FE14584057C185813818 /* MDCElevationOverriding.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDCElevationOverriding.h; path = components/Elevation/src/MDCElevationOverriding.h; sourceTree = "<group>"; };
+		6EF55049919A0968312DE654087AD89C /* AdjustedHitBoxColorControl.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AdjustedHitBoxColorControl.swift; path = FlexColorPicker/Classes/Controls/AdjustedHitBoxColorControl.swift; sourceTree = "<group>"; };
+		722F8738AFDCCB94260766FBBF4AD202 /* MaterialElevation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MaterialElevation.h; path = components/Elevation/src/MaterialElevation.h; sourceTree = "<group>"; };
+		741F9D3943FF7542B04631B29216270F /* FlexColorPicker */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FlexColorPicker; path = FlexColorPicker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		74863807EFAA1D469C80C1F86921812E /* UIView+MaterialElevationResponding.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+MaterialElevationResponding.h"; path = "components/Elevation/src/UIView+MaterialElevationResponding.h"; sourceTree = "<group>"; };
+		7551ADE0F641E5C7BD2A231654B599A4 /* UIApplication+MDCAppExtensions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIApplication+MDCAppExtensions.m"; path = "components/private/Application/src/UIApplication+MDCAppExtensions.m"; sourceTree = "<group>"; };
+		77C8C6C50176617E008927FBDF7FC288 /* UIViewExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIViewExtension.swift; path = FlexColorPicker/Classes/Utilities/UIViewExtension.swift; sourceTree = "<group>"; };
+		7873ED586769E6A311FD7FEE68AE2356 /* MDCKeyboardWatcher.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MDCKeyboardWatcher.m; path = components/private/KeyboardWatcher/src/MDCKeyboardWatcher.m; sourceTree = "<group>"; };
+		7B3C689E1FBC9B18EFC533C9DF6F9095 /* Pods-TimeStampCamera-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TimeStampCamera-acknowledgements.plist"; sourceTree = "<group>"; };
+		7D815EC155B0B483803E1AE7AAB1C674 /* MaterialMathDummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MaterialMathDummy.m; path = components/private/Math/src/MaterialMathDummy.m; sourceTree = "<group>"; };
+		7E3873189A33A5853534588BC1433A97 /* MDCEdgeTreatment.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MDCEdgeTreatment.m; path = components/Shapes/src/MDCEdgeTreatment.m; sourceTree = "<group>"; };
+		811A15A0216F10AAFDDD84386FF4F2E0 /* UIViewController+MaterialBottomSheet.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIViewController+MaterialBottomSheet.h"; path = "components/BottomSheet/src/UIViewController+MaterialBottomSheet.h"; sourceTree = "<group>"; };
+		835E2E9556E9F0C45FC586F714B52CF8 /* MDCBottomSheetPresentationController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDCBottomSheetPresentationController.h; path = components/BottomSheet/src/MDCBottomSheetPresentationController.h; sourceTree = "<group>"; };
+		86480D3367A87D1C8B0E51428AFABB2F /* MDCBottomSheetTransitionController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MDCBottomSheetTransitionController.m; path = components/BottomSheet/src/MDCBottomSheetTransitionController.m; sourceTree = "<group>"; };
+		873C353B661D985EB06BBB4039401B86 /* MDCShapedShadowLayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDCShapedShadowLayer.h; path = components/Shapes/src/MDCShapedShadowLayer.h; sourceTree = "<group>"; };
+		8BD7E4025A3A2F41E2075B59C7EBF971 /* CircleShapedView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CircleShapedView.swift; path = FlexColorPicker/Classes/Views/CircleShapedView.swift; sourceTree = "<group>"; };
+		8E8A4AC3275A3C53864264A9E651D5FF /* ColorPaletteControl.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ColorPaletteControl.swift; path = FlexColorPicker/Classes/Controls/ColorPaletteControl.swift; sourceTree = "<group>"; };
+		92FEF5F9044B65E6A4B98AC681323191 /* MDCShapeMediator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDCShapeMediator.h; path = components/Shapes/src/MDCShapeMediator.h; sourceTree = "<group>"; };
+		94598906AAE7B02B92C183F4F31B63C7 /* DPDConstants.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DPDConstants.swift; path = DropDown/helpers/DPDConstants.swift; sourceTree = "<group>"; };
+		977D43AF6B1A0F30AF21280238B9A15D /* ColorControl.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ColorControl.swift; path = FlexColorPicker/Classes/Controls/ColorControl.swift; sourceTree = "<group>"; };
+		9799363CA08ADDBF1D7A7E115F5742AE /* MDCCornerTreatment+CornerTypeInitalizer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "MDCCornerTreatment+CornerTypeInitalizer.h"; path = "components/ShapeLibrary/src/MDCCornerTreatment+CornerTypeInitalizer.h"; sourceTree = "<group>"; };
+		97E73474E30F8FEFC9559B34BE621E3E /* MaterialShadowElevations.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MaterialShadowElevations.h; path = components/ShadowElevations/src/MaterialShadowElevations.h; sourceTree = "<group>"; };
+		9973C65743F5C0EEFEF78F3481B5B968 /* ColorSliderControl.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ColorSliderControl.swift; path = FlexColorPicker/Classes/Controls/ColorSliderControl.swift; sourceTree = "<group>"; };
+		9B6725B782188F18CB76A740433F14E4 /* DropDown */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = DropDown; path = DropDown.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9F00352777A089890F31AC338B07CAD1 /* MDCRoundedCornerTreatment.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MDCRoundedCornerTreatment.m; path = components/ShapeLibrary/src/MDCRoundedCornerTreatment.m; sourceTree = "<group>"; };
+		A3181901CB52D107289D82B870481ECD /* UIImageExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIImageExtension.swift; path = FlexColorPicker/Classes/Utilities/UIImageExtension.swift; sourceTree = "<group>"; };
+		A34157B3708EDB7D17422B3D92F591D2 /* MaterialComponents */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MaterialComponents; path = MaterialComponents.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4305C5E3C71030961AEB565CC0B8215 /* DefaultColorPickerViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DefaultColorPickerViewController.swift; path = FlexColorPicker/Classes/DefaultColorPickerViewController.swift; sourceTree = "<group>"; };
+		A4598288B9FB98AD1010A048BEFE3A87 /* MDCRectangleShapeGenerator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MDCRectangleShapeGenerator.m; path = components/Shapes/src/MDCRectangleShapeGenerator.m; sourceTree = "<group>"; };
+		A4ACCFF78092F8DC31B9F4EA76D1C3E9 /* MDCBottomSheetController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDCBottomSheetController.h; path = components/BottomSheet/src/MDCBottomSheetController.h; sourceTree = "<group>"; };
+		A64B4D958FE8CE672F4B4EECF7C4D4E8 /* UIImageViewExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIImageViewExtension.swift; path = FlexColorPicker/Classes/Utilities/UIImageViewExtension.swift; sourceTree = "<group>"; };
+		A8B9D233CCEB913732C5FB0AD8D34E3A /* CustomColorPickerViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CustomColorPickerViewController.swift; path = FlexColorPicker/Classes/CustomColorPickerViewController.swift; sourceTree = "<group>"; };
+		A95A3120CB6DED4F6BD235184B99E400 /* FlexColorPicker-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FlexColorPicker-prefix.pch"; sourceTree = "<group>"; };
+		A9B4957D65E8DFB2BC5B114A3235D9BD /* MaterialComponents.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MaterialComponents.debug.xcconfig; sourceTree = "<group>"; };
+		AC5D8466B4FD677379CCB0960397E8B2 /* CGPointExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CGPointExtension.swift; path = FlexColorPicker/Classes/Utilities/CGPointExtension.swift; sourceTree = "<group>"; };
+		AD2AFE58EC2F1881BD914584CF3F97B4 /* MDCSheetState.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDCSheetState.h; path = components/BottomSheet/src/MDCSheetState.h; sourceTree = "<group>"; };
+		ADACECC7638DC5679A77AABB1628E423 /* UIApplication+MDCAppExtensions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIApplication+MDCAppExtensions.h"; path = "components/private/Application/src/UIApplication+MDCAppExtensions.h"; sourceTree = "<group>"; };
+		AE3D3C8AA06E999137D9F117D7B01954 /* MDCCornerTreatment.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MDCCornerTreatment.m; path = components/Shapes/src/MDCCornerTreatment.m; sourceTree = "<group>"; };
+		B0889F7F363C149E735E652DDA2EDD9E /* Pods-TimeStampCamera-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TimeStampCamera-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B09AC7DE775BDB5887A2E306020C4499 /* MaterialKeyboardWatcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MaterialKeyboardWatcher.h; path = components/private/KeyboardWatcher/src/MaterialKeyboardWatcher.h; sourceTree = "<group>"; };
+		B11B769415FF229C80EF59A688DC0F54 /* DropDown-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DropDown-umbrella.h"; sourceTree = "<group>"; };
+		B192958CAAAD236856C472CF5ADE5369 /* MaterialShadowLayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MaterialShadowLayer.h; path = components/ShadowLayer/src/MaterialShadowLayer.h; sourceTree = "<group>"; };
+		B252AA1A185A93B7537483088B7B451A /* DropDown-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "DropDown-Info.plist"; sourceTree = "<group>"; };
+		B2FD4E0FCF7F91180A2AF571CB39C4E6 /* FlexColorPicker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FlexColorPicker.h; path = FlexColorPicker/Classes/FlexColorPicker.h; sourceTree = "<group>"; };
+		B447C0361F2B34E87A7F49D1869AB0F0 /* FlexColorPicker-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FlexColorPicker-Info.plist"; sourceTree = "<group>"; };
+		B5E251D96396A046F60EC1B40056ED1B /* ColorPreviewWithHex.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ColorPreviewWithHex.swift; path = FlexColorPicker/Classes/Controls/ColorPreviewWithHex.swift; sourceTree = "<group>"; };
+		B5F51E0559F0C8A53248AC66A8A62ADD /* ColorPickerThumbView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ColorPickerThumbView.swift; path = FlexColorPicker/Classes/Views/ColorPickerThumbView.swift; sourceTree = "<group>"; };
+		B84A90EDBD8A4890079F5ABE272A9C74 /* RectangularHSBPaletteDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RectangularHSBPaletteDelegate.swift; path = FlexColorPicker/Classes/ControlDelegates/RectangularHSBPaletteDelegate.swift; sourceTree = "<group>"; };
+		B8EE0462272DC5A53965492035A4B89E /* MaterialComponents-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MaterialComponents-umbrella.h"; sourceTree = "<group>"; };
+		BB5F8097AC991C52E663D41FBC01930A /* AbstractColorControl.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AbstractColorControl.swift; path = FlexColorPicker/Classes/Controls/AbstractColorControl.swift; sourceTree = "<group>"; };
+		BBE88A96900E2CDFDA4FD34FF3404328 /* MDCDraggableView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MDCDraggableView.m; path = components/BottomSheet/src/private/MDCDraggableView.m; sourceTree = "<group>"; };
+		BCAA487B048E5AF3F97BE4FBC22E525D /* Pods-TimeStampCamera-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TimeStampCamera-Info.plist"; sourceTree = "<group>"; };
+		C05DDCC689CAE727FDB83C47EE0FA894 /* MDCMath.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDCMath.h; path = components/private/Math/src/MDCMath.h; sourceTree = "<group>"; };
+		C3F80FCD00508B443F4E127562E43F62 /* DropDown.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DropDown.swift; path = DropDown/src/DropDown.swift; sourceTree = "<group>"; };
+		C42C2DEE6A2275869931CBE94E6B7216 /* CGRectExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CGRectExtension.swift; path = FlexColorPicker/Classes/Utilities/CGRectExtension.swift; sourceTree = "<group>"; };
+		C42C8920DFD841C5A62D11329487FE57 /* FlexColorPicker-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FlexColorPicker-umbrella.h"; sourceTree = "<group>"; };
+		C501D1A6DAE22C0B5187273FBA2FD554 /* Pods-TimeStampCamera.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TimeStampCamera.release.xcconfig"; sourceTree = "<group>"; };
+		C556EC07CBEA3B7E3976D22A3012F0B4 /* DPDUIView+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DPDUIView+Extension.swift"; path = "DropDown/helpers/DPDUIView+Extension.swift"; sourceTree = "<group>"; };
+		C60647D53B8A6C09D379ACCC4FD9A3D6 /* MDCSheetBehavior.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MDCSheetBehavior.m; path = components/BottomSheet/src/private/MDCSheetBehavior.m; sourceTree = "<group>"; };
+		C63FC8B2538713879DD3D7C9F29684FE /* FlexColorPicker.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FlexColorPicker.debug.xcconfig; sourceTree = "<group>"; };
+		C73AE30E89AAF1E0B56342D1A122690C /* MDCEdgeTreatment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDCEdgeTreatment.h; path = components/Shapes/src/MDCEdgeTreatment.h; sourceTree = "<group>"; };
+		C8453833B7599178B8277475AEBDFD0B /* PaletteAwareScrollView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PaletteAwareScrollView.swift; path = FlexColorPicker/Classes/Views/PaletteAwareScrollView.swift; sourceTree = "<group>"; };
+		D0CD928FDC3D7C0CF56CC4C5CDF4F3AA /* MDCPillShapeGenerator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MDCPillShapeGenerator.m; path = components/ShapeLibrary/src/MDCPillShapeGenerator.m; sourceTree = "<group>"; };
+		D828D915A8F3580E88833C46C5891996 /* UIColorExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIColorExtension.swift; path = FlexColorPicker/Classes/Utilities/UIColorExtension.swift; sourceTree = "<group>"; };
+		DD2EEDF6167143DEC1B03E2FC8FAEBFB /* MDCSheetContainerViewDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDCSheetContainerViewDelegate.h; path = components/BottomSheet/src/private/MDCSheetContainerViewDelegate.h; sourceTree = "<group>"; };
+		DDD46371ABEA89BE7237569B1C5402F5 /* MDCKeyboardWatcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDCKeyboardWatcher.h; path = components/private/KeyboardWatcher/src/MDCKeyboardWatcher.h; sourceTree = "<group>"; };
+		DEA2C894F27A7066145A2EF7A195158F /* MDCCurvedCornerTreatment.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MDCCurvedCornerTreatment.m; path = components/ShapeLibrary/src/MDCCurvedCornerTreatment.m; sourceTree = "<group>"; };
+		E3A5DAE664188CD8E2272DA8725F2A3B /* MDCPillShapeGenerator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDCPillShapeGenerator.h; path = components/ShapeLibrary/src/MDCPillShapeGenerator.h; sourceTree = "<group>"; };
+		E452A892B8BB83143C990BD396C3E7D0 /* MDCShadowElevations.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDCShadowElevations.h; path = components/ShadowElevations/src/MDCShadowElevations.h; sourceTree = "<group>"; };
+		E4636777EB3B0D353C247BC15EDA2DC3 /* MDCCutCornerTreatment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDCCutCornerTreatment.h; path = components/ShapeLibrary/src/MDCCutCornerTreatment.h; sourceTree = "<group>"; };
+		E4689CD7B9A2C56C35D8EBC4DCF50C63 /* MDCSlantedRectShapeGenerator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDCSlantedRectShapeGenerator.h; path = components/ShapeLibrary/src/MDCSlantedRectShapeGenerator.h; sourceTree = "<group>"; };
+		E8202F58A843F2E4D157B30DBB1FB9F9 /* DropDown.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DropDown.debug.xcconfig; sourceTree = "<group>"; };
+		EA350E41C26148C65668D021343C23C8 /* PaletteControls.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PaletteControls.swift; path = FlexColorPicker/Classes/Controls/PaletteControls.swift; sourceTree = "<group>"; };
+		EDD94F61583A98BB8DF601D2A70BDAE9 /* MDCRoundedCornerTreatment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDCRoundedCornerTreatment.h; path = components/ShapeLibrary/src/MDCRoundedCornerTreatment.h; sourceTree = "<group>"; };
+		EE592ED2C0CB3855D136EF562F6B354F /* MaterialComponents.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MaterialComponents.release.xcconfig; sourceTree = "<group>"; };
+		EEEAB627E0BD9BC37EC575039854318F /* UIViewWithCommonInit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIViewWithCommonInit.swift; path = FlexColorPicker/Classes/Views/UIViewWithCommonInit.swift; sourceTree = "<group>"; };
+		F00AE0DA57BDD7E7ECD428C2D6E85AAA /* MDCBottomSheetControllerDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDCBottomSheetControllerDelegate.h; path = components/BottomSheet/src/MDCBottomSheetControllerDelegate.h; sourceTree = "<group>"; };
+		F0180CB7560AEE1009C6CD0D05CAC83A /* MDCCurvedRectShapeGenerator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MDCCurvedRectShapeGenerator.m; path = components/ShapeLibrary/src/MDCCurvedRectShapeGenerator.m; sourceTree = "<group>"; };
+		F1D97E749E03B49EC30D553FCC027DC1 /* MDCShapeMediator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MDCShapeMediator.m; path = components/Shapes/src/MDCShapeMediator.m; sourceTree = "<group>"; };
+		F302E6FF4101BE806BCD819D7D3CCCA6 /* GradientView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GradientView.swift; path = FlexColorPicker/Classes/Views/GradientView.swift; sourceTree = "<group>"; };
+		F334F63AB6936F7D730A803F4FB6E2CC /* UIViewController+MaterialBottomSheet.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+MaterialBottomSheet.m"; path = "components/BottomSheet/src/UIViewController+MaterialBottomSheet.m"; sourceTree = "<group>"; };
+		F5551DFD9143F13CAA6BC0CD3679A1C1 /* DropDown-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DropDown-dummy.m"; sourceTree = "<group>"; };
+		F5ACA18697793919DEC9DF6AA965219E /* FlexColorPicker.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FlexColorPicker.release.xcconfig; sourceTree = "<group>"; };
+		F800E2F61C3897D088C2827B957A2BA4 /* MDCRectangleShapeGenerator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDCRectangleShapeGenerator.h; path = components/Shapes/src/MDCRectangleShapeGenerator.h; sourceTree = "<group>"; };
+		F8A150E13C6613E9377014D21DD46850 /* ComponentSliderControls.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ComponentSliderControls.swift; path = FlexColorPicker/Classes/Controls/ComponentSliderControls.swift; sourceTree = "<group>"; };
+		F9E28A8E22BAE2D03850879953A1059C /* Pods-TimeStampCamera.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TimeStampCamera.modulemap"; sourceTree = "<group>"; };
+		FB0896E867902ED3583982B19ADA8DF7 /* MDCTriangleEdgeTreatment.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MDCTriangleEdgeTreatment.m; path = components/ShapeLibrary/src/MDCTriangleEdgeTreatment.m; sourceTree = "<group>"; };
+		FB37A2B54C418AE016286055CF67E151 /* FlexColorPicker.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FlexColorPicker.modulemap; sourceTree = "<group>"; };
+		FC121C1832CEC208D89E80D19BF1AFC9 /* MaterialComponents-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "MaterialComponents-Info.plist"; sourceTree = "<group>"; };
+		FD75BE53679BE8D557CE9BD541505013 /* MDCTriangleEdgeTreatment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDCTriangleEdgeTreatment.h; path = components/ShapeLibrary/src/MDCTriangleEdgeTreatment.h; sourceTree = "<group>"; };
+		FDD93EC7D1FE8592F336A1313D3357C1 /* MaterialShadowElevationsDummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MaterialShadowElevationsDummy.m; path = components/ShadowElevations/src/MaterialShadowElevationsDummy.m; sourceTree = "<group>"; };
+		FE07EF913F36F1A28604BC46D3E4407D /* Pods-TimeStampCamera */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-TimeStampCamera"; path = Pods_TimeStampCamera.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		806EAF997244349F9700E5E8B7E5CC0D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B349DFD123428C60FB84208D7495124F /* Foundation.framework in Frameworks */,
+				6152798C1B26D94BC915C7FC204D9F82 /* WebKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		808BE4E171BD75B6477EC2B77490C2B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34D86F4481D9328BF45B637B906B3122 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8BF55D61418E01E606930DE19C76D10C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE5067B38ACA71E582DF300E3DCD7372 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C89E0443F9993088AD69F8633291D5B8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E0313D5DC26C640CAC73EE1108EBA38 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00328CE9D98FD948F07327C67B1CF804 /* MaterialComponents */ = {
+			isa = PBXGroup;
+			children = (
+				E58D7ECFA481BFC96F3A93BA15046EEA /* Availability */,
+				33F77EF3ADAA68DB136DE24A376FD0B2 /* BottomSheet */,
+				D79CD66D89C13966F27B319F03662C4C /* Elevation */,
+				6BC587C4A205C28A340A62EF82F44591 /* private */,
+				3FBC8EA3DF1D0F2E3550B12E8443D670 /* ShadowElevations */,
+				E6CB5B8F75D36700CD84E111DFAB1132 /* ShadowLayer */,
+				C43F9ACACC938F05C6E8A4116DF53FBB /* ShapeLibrary */,
+				962541D52FEA47721F226A719AC487D8 /* Shapes */,
+				211D6562281927A79AD2FBC45416336F /* Support Files */,
+			);
+			name = MaterialComponents;
+			path = MaterialComponents;
+			sourceTree = "<group>";
+		};
+		1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D4666CE1A84ECF5C342FAD3C508C69DE /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1DD26D74033BA66799CAE08411CAB545 /* Color */ = {
+			isa = PBXGroup;
+			children = (
+				29EAB710A321DD874DE987A327F2D520 /* MaterialColor.h */,
+				38F7273E14F045A092EFE9B781BCE82A /* UIColor+MaterialBlending.h */,
+				11FC25F3FB3625E7B89C75D51E5AE684 /* UIColor+MaterialBlending.m */,
+				62266B894877744006B98CAF763830E7 /* UIColor+MaterialDynamic.h */,
+				3DAFCCE2DD45CCAF95D944C1E67A622F /* UIColor+MaterialDynamic.m */,
+			);
+			name = Color;
+			sourceTree = "<group>";
+		};
+		1EE511E40A521F5DE9A0E7DF84774102 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2F065AE5F87636DC8985DFFAD1E8DA18 /* DropDown.modulemap */,
+				F5551DFD9143F13CAA6BC0CD3679A1C1 /* DropDown-dummy.m */,
+				B252AA1A185A93B7537483088B7B451A /* DropDown-Info.plist */,
+				5BFB6808F690045C93E1C039EF8C5919 /* DropDown-prefix.pch */,
+				B11B769415FF229C80EF59A688DC0F54 /* DropDown-umbrella.h */,
+				E8202F58A843F2E4D157B30DBB1FB9F9 /* DropDown.debug.xcconfig */,
+				2D93CEF81D27A173344D3563A6C349FF /* DropDown.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/DropDown";
+			sourceTree = "<group>";
+		};
+		211D6562281927A79AD2FBC45416336F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1759382C7B1D8F3D2141E09C0AC05F45 /* MaterialComponents.modulemap */,
+				4056E2CB92B1022217AF4EF4C3DC5552 /* MaterialComponents-dummy.m */,
+				FC121C1832CEC208D89E80D19BF1AFC9 /* MaterialComponents-Info.plist */,
+				447A7763AFB7A334CE76558E24241DEB /* MaterialComponents-prefix.pch */,
+				B8EE0462272DC5A53965492035A4B89E /* MaterialComponents-umbrella.h */,
+				A9B4957D65E8DFB2BC5B114A3235D9BD /* MaterialComponents.debug.xcconfig */,
+				EE592ED2C0CB3855D136EF562F6B354F /* MaterialComponents.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/MaterialComponents";
+			sourceTree = "<group>";
+		};
+		305068ED923488B76E939AB40EE94B76 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				26A1138896DF07083146506F7959A92E /* DropDownCell.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		33093B11C6536D3BDA17F288A2369930 /* FlexColorPicker */ = {
+			isa = PBXGroup;
+			children = (
+				BB5F8097AC991C52E663D41FBC01930A /* AbstractColorControl.swift */,
+				6EF55049919A0968312DE654087AD89C /* AdjustedHitBoxColorControl.swift */,
+				AC5D8466B4FD677379CCB0960397E8B2 /* CGPointExtension.swift */,
+				C42C2DEE6A2275869931CBE94E6B7216 /* CGRectExtension.swift */,
+				8BD7E4025A3A2F41E2075B59C7EBF971 /* CircleShapedView.swift */,
+				977D43AF6B1A0F30AF21280238B9A15D /* ColorControl.swift */,
+				1ACDBD6F6765565D1E7B394A6463A38E /* ColorControlContentView.swift */,
+				8E8A4AC3275A3C53864264A9E651D5FF /* ColorPaletteControl.swift */,
+				20DE12E9155445A4D87BD694AFE4896F /* ColorPaletteDelegate.swift */,
+				441E2BD6A1AED98A2BBF5B970C6B71C7 /* ColorPickerController.swift */,
+				1C9392A866FAF5A7BC93ED9AF6F39BF6 /* ColorPickerControllerProtocol.swift */,
+				16A57BDE35D6386AA8D36EF98703FB36 /* ColorPickerDelegate.swift */,
+				B5F51E0559F0C8A53248AC66A8A62ADD /* ColorPickerThumbView.swift */,
+				B5E251D96396A046F60EC1B40056ED1B /* ColorPreviewWithHex.swift */,
+				9973C65743F5C0EEFEF78F3481B5B968 /* ColorSliderControl.swift */,
+				4C220558003C1BF5509E98B0BF601779 /* ColorSliderDelegate.swift */,
+				F8A150E13C6613E9377014D21DD46850 /* ComponentSliderControls.swift */,
+				3372BE0E31A45FE02A55494BA0948248 /* ComponentSliderDelegates.swift */,
+				402A300E53D326C34C89D52FA857D187 /* ControlWithThumbView.swift */,
+				A8B9D233CCEB913732C5FB0AD8D34E3A /* CustomColorPickerViewController.swift */,
+				A4305C5E3C71030961AEB565CC0B8215 /* DefaultColorPickerViewController.swift */,
+				B2FD4E0FCF7F91180A2AF571CB39C4E6 /* FlexColorPicker.h */,
+				F302E6FF4101BE806BCD819D7D3CCCA6 /* GradientView.swift */,
+				67F73A87F46B0923BBCD88675706722E /* HSBColor.swift */,
+				033F22B88112AA6F2C12517C759AC0DE /* LimitedGestureCircleView.swift */,
+				097C2848AB5C55F2754F77F956512E30 /* LimitedGestureViewDelegate.swift */,
+				C8453833B7599178B8277475AEBDFD0B /* PaletteAwareScrollView.swift */,
+				EA350E41C26148C65668D021343C23C8 /* PaletteControls.swift */,
+				2EEE8DD51CD6B8CD8E31CA0839F90B96 /* RadialHSBPaletteDelegate.swift */,
+				B84A90EDBD8A4890079F5ABE272A9C74 /* RectangularHSBPaletteDelegate.swift */,
+				D828D915A8F3580E88833C46C5891996 /* UIColorExtension.swift */,
+				A3181901CB52D107289D82B870481ECD /* UIImageExtension.swift */,
+				A64B4D958FE8CE672F4B4EECF7C4D4E8 /* UIImageViewExtension.swift */,
+				77C8C6C50176617E008927FBDF7FC288 /* UIViewExtension.swift */,
+				EEEAB627E0BD9BC37EC575039854318F /* UIViewWithCommonInit.swift */,
+				74AC9A82232DCD0B8137F170C6D3D80D /* Support Files */,
+			);
+			name = FlexColorPicker;
+			path = FlexColorPicker;
+			sourceTree = "<group>";
+		};
+		33F77EF3ADAA68DB136DE24A376FD0B2 /* BottomSheet */ = {
+			isa = PBXGroup;
+			children = (
+				064BF1ACFF3AB0822A5CC826992A94FF /* MaterialBottomSheet.h */,
+				A4ACCFF78092F8DC31B9F4EA76D1C3E9 /* MDCBottomSheetController.h */,
+				039FA31BED526BC7D04DE5A953F59911 /* MDCBottomSheetController.m */,
+				F00AE0DA57BDD7E7ECD428C2D6E85AAA /* MDCBottomSheetControllerDelegate.h */,
+				835E2E9556E9F0C45FC586F714B52CF8 /* MDCBottomSheetPresentationController.h */,
+				1312DFF5BB1597F069D1EBF4F5BB4CEE /* MDCBottomSheetPresentationController.m */,
+				3E8A4B20776B239473EA69C14AE80CC4 /* MDCBottomSheetPresentationControllerDelegate.h */,
+				53B780170B043AC384450A5F41D1B604 /* MDCBottomSheetTransitionController.h */,
+				86480D3367A87D1C8B0E51428AFABB2F /* MDCBottomSheetTransitionController.m */,
+				0766ED7041A3561EB2722A7CCAACC663 /* MDCDraggableView.h */,
+				BBE88A96900E2CDFDA4FD34FF3404328 /* MDCDraggableView.m */,
+				2AF8EEE74DEA74FFCBF27BDA5943E00E /* MDCDraggableViewDelegate.h */,
+				32F98BCBE67104E6C94A957C301656B5 /* MDCSheetBehavior.h */,
+				C60647D53B8A6C09D379ACCC4FD9A3D6 /* MDCSheetBehavior.m */,
+				24288D039CE6F37D935EAC02CA899B2B /* MDCSheetContainerView.h */,
+				2F9C29041C43D8D33D86806E3C8FF381 /* MDCSheetContainerView.m */,
+				DD2EEDF6167143DEC1B03E2FC8FAEBFB /* MDCSheetContainerViewDelegate.h */,
+				AD2AFE58EC2F1881BD914584CF3F97B4 /* MDCSheetState.h */,
+				811A15A0216F10AAFDDD84386FF4F2E0 /* UIViewController+MaterialBottomSheet.h */,
+				F334F63AB6936F7D730A803F4FB6E2CC /* UIViewController+MaterialBottomSheet.m */,
+			);
+			name = BottomSheet;
+			sourceTree = "<group>";
+		};
+		3B8A7FF7598784706318FD24D6DC0D2E /* Math */ = {
+			isa = PBXGroup;
+			children = (
+				5E2EFC58D1ACE24A79157B541F7DD415 /* MaterialMath.h */,
+				7D815EC155B0B483803E1AE7AAB1C674 /* MaterialMathDummy.m */,
+				C05DDCC689CAE727FDB83C47EE0FA894 /* MDCMath.h */,
+			);
+			name = Math;
+			sourceTree = "<group>";
+		};
+		3FBC8EA3DF1D0F2E3550B12E8443D670 /* ShadowElevations */ = {
+			isa = PBXGroup;
+			children = (
+				97E73474E30F8FEFC9559B34BE621E3E /* MaterialShadowElevations.h */,
+				FDD93EC7D1FE8592F336A1313D3357C1 /* MaterialShadowElevationsDummy.m */,
+				E452A892B8BB83143C990BD396C3E7D0 /* MDCShadowElevations.h */,
+			);
+			name = ShadowElevations;
+			sourceTree = "<group>";
+		};
+		49DA29C97CB420096D6A24617AB23EA8 /* Pods-TimeStampCamera */ = {
+			isa = PBXGroup;
+			children = (
+				F9E28A8E22BAE2D03850879953A1059C /* Pods-TimeStampCamera.modulemap */,
+				B0889F7F363C149E735E652DDA2EDD9E /* Pods-TimeStampCamera-acknowledgements.markdown */,
+				7B3C689E1FBC9B18EFC533C9DF6F9095 /* Pods-TimeStampCamera-acknowledgements.plist */,
+				4B7FBAA15596A4F660DE1DF2F21384BF /* Pods-TimeStampCamera-dummy.m */,
+				659C42CE3C22A6BFA0850AEF0A83D6E6 /* Pods-TimeStampCamera-frameworks.sh */,
+				BCAA487B048E5AF3F97BE4FBC22E525D /* Pods-TimeStampCamera-Info.plist */,
+				32E9DC2FEA0C0A97F076AC4E9A818300 /* Pods-TimeStampCamera-umbrella.h */,
+				1368232C5CDD470E63612EEAC4B288A6 /* Pods-TimeStampCamera.debug.xcconfig */,
+				C501D1A6DAE22C0B5187273FBA2FD554 /* Pods-TimeStampCamera.release.xcconfig */,
+			);
+			name = "Pods-TimeStampCamera";
+			path = "Target Support Files/Pods-TimeStampCamera";
+			sourceTree = "<group>";
+		};
+		6835EB7D1EB3DEF211E3A523435FE5DC /* KeyboardWatcher */ = {
+			isa = PBXGroup;
+			children = (
+				B09AC7DE775BDB5887A2E306020C4499 /* MaterialKeyboardWatcher.h */,
+				DDD46371ABEA89BE7237569B1C5402F5 /* MDCKeyboardWatcher.h */,
+				7873ED586769E6A311FD7FEE68AE2356 /* MDCKeyboardWatcher.m */,
+			);
+			name = KeyboardWatcher;
+			sourceTree = "<group>";
+		};
+		6BC587C4A205C28A340A62EF82F44591 /* private */ = {
+			isa = PBXGroup;
+			children = (
+				ECC0F35DCBC7B75D42168EBD9EBED541 /* Application */,
+				1DD26D74033BA66799CAE08411CAB545 /* Color */,
+				6835EB7D1EB3DEF211E3A523435FE5DC /* KeyboardWatcher */,
+				3B8A7FF7598784706318FD24D6DC0D2E /* Math */,
+			);
+			name = private;
+			sourceTree = "<group>";
+		};
+		74AC9A82232DCD0B8137F170C6D3D80D /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				FB37A2B54C418AE016286055CF67E151 /* FlexColorPicker.modulemap */,
+				354965CBA8BB372D40135F45031EC13F /* FlexColorPicker-dummy.m */,
+				B447C0361F2B34E87A7F49D1869AB0F0 /* FlexColorPicker-Info.plist */,
+				A95A3120CB6DED4F6BD235184B99E400 /* FlexColorPicker-prefix.pch */,
+				C42C8920DFD841C5A62D11329487FE57 /* FlexColorPicker-umbrella.h */,
+				C63FC8B2538713879DD3D7C9F29684FE /* FlexColorPicker.debug.xcconfig */,
+				F5ACA18697793919DEC9DF6AA965219E /* FlexColorPicker.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/FlexColorPicker";
+			sourceTree = "<group>";
+		};
+		962541D52FEA47721F226A719AC487D8 /* Shapes */ = {
+			isa = PBXGroup;
+			children = (
+				5585CACE9820C129B0E61BA94E76E95B /* MaterialShapes.h */,
+				66846D5548FC26829931F3861CC4FE8F /* MDCCornerTreatment.h */,
+				AE3D3C8AA06E999137D9F117D7B01954 /* MDCCornerTreatment.m */,
+				C73AE30E89AAF1E0B56342D1A122690C /* MDCEdgeTreatment.h */,
+				7E3873189A33A5853534588BC1433A97 /* MDCEdgeTreatment.m */,
+				2FA88DE149D85741407C97CA1900FE71 /* MDCPathGenerator.h */,
+				3640B16076D215FC5E9DC429D41F1C10 /* MDCPathGenerator.m */,
+				F800E2F61C3897D088C2827B957A2BA4 /* MDCRectangleShapeGenerator.h */,
+				A4598288B9FB98AD1010A048BEFE3A87 /* MDCRectangleShapeGenerator.m */,
+				873C353B661D985EB06BBB4039401B86 /* MDCShapedShadowLayer.h */,
+				497740F9D18592BF1FC8406C860E7204 /* MDCShapedShadowLayer.m */,
+				245274FFAA1283BA9D0B6BF5A5AC7229 /* MDCShapedView.h */,
+				06E520448902E3437A1BD8E6FEAFF34B /* MDCShapedView.m */,
+				354062790348E8A591F23589175630DD /* MDCShapeGenerating.h */,
+				92FEF5F9044B65E6A4B98AC681323191 /* MDCShapeMediator.h */,
+				F1D97E749E03B49EC30D553FCC027DC1 /* MDCShapeMediator.m */,
+			);
+			name = Shapes;
+			sourceTree = "<group>";
+		};
+		A21EE6E243A17F66FB91D8AA17A62186 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AE16F01DDFC9C45BA0731D01B476488C /* DropDown */,
+				33093B11C6536D3BDA17F288A2369930 /* FlexColorPicker */,
+				00328CE9D98FD948F07327C67B1CF804 /* MaterialComponents */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		AC2E90EEDDF12589663E794BC1C3C105 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				49DA29C97CB420096D6A24617AB23EA8 /* Pods-TimeStampCamera */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		AE16F01DDFC9C45BA0731D01B476488C /* DropDown */ = {
+			isa = PBXGroup;
+			children = (
+				94598906AAE7B02B92C183F4F31B63C7 /* DPDConstants.swift */,
+				2EA2550FE40BAD2B0FD10E9E254127F3 /* DPDKeyboardListener.swift */,
+				C556EC07CBEA3B7E3976D22A3012F0B4 /* DPDUIView+Extension.swift */,
+				C3F80FCD00508B443F4E127562E43F62 /* DropDown.swift */,
+				325CB6D0031E84AD140D46FECD1B34A5 /* DropDown+Appearance.swift */,
+				1B2CD41625214E7D4D0BEF429B176857 /* DropDownCell.swift */,
+				305068ED923488B76E939AB40EE94B76 /* Resources */,
+				1EE511E40A521F5DE9A0E7DF84774102 /* Support Files */,
+			);
+			name = DropDown;
+			path = DropDown;
+			sourceTree = "<group>";
+		};
+		C43F9ACACC938F05C6E8A4116DF53FBB /* ShapeLibrary */ = {
+			isa = PBXGroup;
+			children = (
+				5BCC55AC088CA3B919870AEF7923E8AE /* MaterialShapeLibrary.h */,
+				9799363CA08ADDBF1D7A7E115F5742AE /* MDCCornerTreatment+CornerTypeInitalizer.h */,
+				64F25B0611ECFC9AAEA7B13457DD0560 /* MDCCornerTreatment+CornerTypeInitalizer.m */,
+				69186B008C209349990F75ACB0F8CC61 /* MDCCurvedCornerTreatment.h */,
+				DEA2C894F27A7066145A2EF7A195158F /* MDCCurvedCornerTreatment.m */,
+				3B1261208C9EE0D871F07E87693985AC /* MDCCurvedRectShapeGenerator.h */,
+				F0180CB7560AEE1009C6CD0D05CAC83A /* MDCCurvedRectShapeGenerator.m */,
+				E4636777EB3B0D353C247BC15EDA2DC3 /* MDCCutCornerTreatment.h */,
+				65CA789809E4EB4DF509177900C69826 /* MDCCutCornerTreatment.m */,
+				E3A5DAE664188CD8E2272DA8725F2A3B /* MDCPillShapeGenerator.h */,
+				D0CD928FDC3D7C0CF56CC4C5CDF4F3AA /* MDCPillShapeGenerator.m */,
+				EDD94F61583A98BB8DF601D2A70BDAE9 /* MDCRoundedCornerTreatment.h */,
+				9F00352777A089890F31AC338B07CAD1 /* MDCRoundedCornerTreatment.m */,
+				E4689CD7B9A2C56C35D8EBC4DCF50C63 /* MDCSlantedRectShapeGenerator.h */,
+				25F85CA2BB90AF27AD39A33D17F262B5 /* MDCSlantedRectShapeGenerator.m */,
+				FD75BE53679BE8D557CE9BD541505013 /* MDCTriangleEdgeTreatment.h */,
+				FB0896E867902ED3583982B19ADA8DF7 /* MDCTriangleEdgeTreatment.m */,
+			);
+			name = ShapeLibrary;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */,
+				A21EE6E243A17F66FB91D8AA17A62186 /* Pods */,
+				D6389D2508BBF5E878DD7B3B72CE9E86 /* Products */,
+				AC2E90EEDDF12589663E794BC1C3C105 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D4666CE1A84ECF5C342FAD3C508C69DE /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				32D20E8E61FE391C0ED97D6F5A9EEEFD /* Foundation.framework */,
+				2BB655F8A3B9F0C3DB37D349580B2779 /* WebKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		D6389D2508BBF5E878DD7B3B72CE9E86 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9B6725B782188F18CB76A740433F14E4 /* DropDown */,
+				741F9D3943FF7542B04631B29216270F /* FlexColorPicker */,
+				A34157B3708EDB7D17422B3D92F591D2 /* MaterialComponents */,
+				FE07EF913F36F1A28604BC46D3E4407D /* Pods-TimeStampCamera */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D79CD66D89C13966F27B319F03662C4C /* Elevation */ = {
+			isa = PBXGroup;
+			children = (
+				722F8738AFDCCB94260766FBBF4AD202 /* MaterialElevation.h */,
+				0CFEA0674E2CE1DE3B5AE82B56706D0D /* MDCElevatable.h */,
+				6CEEE77AA2D1FE14584057C185813818 /* MDCElevationOverriding.h */,
+				297C0D836A865A87E7D99DCE752CCC9A /* UIColor+MaterialElevation.h */,
+				1225830FFFB580C084038FDF1FF43018 /* UIColor+MaterialElevation.m */,
+				74863807EFAA1D469C80C1F86921812E /* UIView+MaterialElevationResponding.h */,
+				3079809951B80BF71EDB0D085FFA4EAB /* UIView+MaterialElevationResponding.m */,
+			);
+			name = Elevation;
+			sourceTree = "<group>";
+		};
+		E58D7ECFA481BFC96F3A93BA15046EEA /* Availability */ = {
+			isa = PBXGroup;
+			children = (
+				478C52536D818BB923B8955122223064 /* MaterialAvailability.h */,
+				6AC942461649830E2A91385C9D8AD306 /* MDCAvailability.h */,
+			);
+			name = Availability;
+			sourceTree = "<group>";
+		};
+		E6CB5B8F75D36700CD84E111DFAB1132 /* ShadowLayer */ = {
+			isa = PBXGroup;
+			children = (
+				B192958CAAAD236856C472CF5ADE5369 /* MaterialShadowLayer.h */,
+				504748F665BDE6378F98261A682DE915 /* MDCShadowLayer.h */,
+				3FC6446473F6A9EDAF0BD27EF7231706 /* MDCShadowLayer.m */,
+			);
+			name = ShadowLayer;
+			sourceTree = "<group>";
+		};
+		ECC0F35DCBC7B75D42168EBD9EBED541 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				5B0467CC2CE66B0DB41A682750448D36 /* MaterialApplication.h */,
+				ADACECC7638DC5679A77AABB1628E423 /* UIApplication+MDCAppExtensions.h */,
+				7551ADE0F641E5C7BD2A231654B599A4 /* UIApplication+MDCAppExtensions.m */,
+			);
+			name = Application;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		40DC6D78AA5CF92343141D67A8EBF3AD /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA068FACD628B4D9F72DA0B5294F8F8F /* FlexColorPicker.h in Headers */,
+				AC178C8BC13F6BB812CF480DB5DF74CE /* FlexColorPicker-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		89FA99503C7BE8E230B55B58E6207804 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B5CE32FA14B2F5350A4C323B984FD2E /* Pods-TimeStampCamera-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		97CE91431E229797751455423C79CA4F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0A8C46EEE733B55971B1CC5ED65C9AA /* DropDown-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3CDDC65E7CD101F46D811CF6488BDA6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27E454E5203F8CC37F6E43B6FC72CAAF /* MaterialApplication.h in Headers */,
+				A24B021BE5D40DCCCD0102E31E468D77 /* MaterialAvailability.h in Headers */,
+				18B4F45884A1AE821C55D92A82BA16EC /* MaterialBottomSheet.h in Headers */,
+				CAC33CCE1FEFD437D50AE236282065DD /* MaterialColor.h in Headers */,
+				62D2C55C5E6053CDBFD4F7357147B223 /* MaterialComponents-umbrella.h in Headers */,
+				007925CB7B373CEF2457BA29EB21F36C /* MaterialElevation.h in Headers */,
+				5EDD936E994705CFF1381A7695F76204 /* MaterialKeyboardWatcher.h in Headers */,
+				595D3A56309AEA817F55172459ED16CE /* MaterialMath.h in Headers */,
+				AAC97DF8936D6329568DB243D04281B1 /* MaterialShadowElevations.h in Headers */,
+				2077B0D839DB673DFC4929A50A93264F /* MaterialShadowLayer.h in Headers */,
+				2E623866A2E10A536A1C5A81A1484BEB /* MaterialShapeLibrary.h in Headers */,
+				B46758C812C6906AD0270ED781633E6F /* MaterialShapes.h in Headers */,
+				F405D02F5D0CAC7B45605E8DAA390011 /* MDCAvailability.h in Headers */,
+				8A72888924AEBB46318C07E7BD6DEE10 /* MDCBottomSheetController.h in Headers */,
+				1E324ECCB96F9FD656C9C37AC22A9594 /* MDCBottomSheetControllerDelegate.h in Headers */,
+				ACA03AC6678121C34C9751694E174DEC /* MDCBottomSheetPresentationController.h in Headers */,
+				BE55C082EC58C1E0D77D119C3D52D13B /* MDCBottomSheetPresentationControllerDelegate.h in Headers */,
+				55F1D2607A532B555F1B182EE095A044 /* MDCBottomSheetTransitionController.h in Headers */,
+				5C620577848BDFE5534C453A6E2F1D30 /* MDCCornerTreatment.h in Headers */,
+				A5178ED16462078EEFE039750F3FD979 /* MDCCornerTreatment+CornerTypeInitalizer.h in Headers */,
+				1F36D0C890E2A668177CBD17D1E30BC2 /* MDCCurvedCornerTreatment.h in Headers */,
+				C14DEA45483C8F5C1B6739CAC43C02F8 /* MDCCurvedRectShapeGenerator.h in Headers */,
+				D8030EC717AFD50138FA1A12BDA85A7A /* MDCCutCornerTreatment.h in Headers */,
+				B7CC774FEF04EC4A5A47F24FD0D68AD3 /* MDCDraggableView.h in Headers */,
+				C35E010C63E824F3D00B67D4C5E0159E /* MDCDraggableViewDelegate.h in Headers */,
+				0C76EEF9FC8B4C12C73B071124D2443F /* MDCEdgeTreatment.h in Headers */,
+				C8F0F085A4D93EFA7D77D622698C0951 /* MDCElevatable.h in Headers */,
+				A25BE1CE5E3EB7E7857BBAD0944841AE /* MDCElevationOverriding.h in Headers */,
+				73072DE782AA0A5FA4533D4073422AC4 /* MDCKeyboardWatcher.h in Headers */,
+				C4839299FFC04CC32EE57EE475609956 /* MDCMath.h in Headers */,
+				18F9C48B43DB0B16D3424333B6F88A4A /* MDCPathGenerator.h in Headers */,
+				B584746C59CE44E5CDF9A5C865E14AB8 /* MDCPillShapeGenerator.h in Headers */,
+				4893BBF093F4F86CB3DE86CE7804B490 /* MDCRectangleShapeGenerator.h in Headers */,
+				556FE452E5E60A7FEA0A78EDCF8E97F6 /* MDCRoundedCornerTreatment.h in Headers */,
+				A46A2C1156C2EE6C28099360F7266381 /* MDCShadowElevations.h in Headers */,
+				39C5445892CB72E2BB1FB1BA1F38CF30 /* MDCShadowLayer.h in Headers */,
+				D4EB9484C1E6F8B076FB379E9A47C191 /* MDCShapedShadowLayer.h in Headers */,
+				AC21AEC54003057F322B352C400BCE1A /* MDCShapedView.h in Headers */,
+				F075E0626B9906C0B26DAFB35893F031 /* MDCShapeGenerating.h in Headers */,
+				A17B1E5CB0D295F3A4C99DB6A61BCF78 /* MDCShapeMediator.h in Headers */,
+				93D82E2FA5AA7944649C58B8A5DB4F6E /* MDCSheetBehavior.h in Headers */,
+				E78AAB1EDC765339242F9C5F53EEE76C /* MDCSheetContainerView.h in Headers */,
+				D5F176895ACE0E36002E762A311F2D23 /* MDCSheetContainerViewDelegate.h in Headers */,
+				CD136E74E4DABD689B8CF1D6115F9830 /* MDCSheetState.h in Headers */,
+				5F9F3A5F2887FFF46A0702548D18E111 /* MDCSlantedRectShapeGenerator.h in Headers */,
+				F68093DB103F95209DE487501DB4D8E7 /* MDCTriangleEdgeTreatment.h in Headers */,
+				714FC92F814E85A5B5405501E0FF1BF4 /* UIApplication+MDCAppExtensions.h in Headers */,
+				10B800F3E36C80713AB589FA1CF47441 /* UIColor+MaterialBlending.h in Headers */,
+				43006ED7C7394CBC703AA58549754752 /* UIColor+MaterialDynamic.h in Headers */,
+				D27AA32D14580AC0753DCF15CB0BAD0B /* UIColor+MaterialElevation.h in Headers */,
+				DA12283CA4873463ED2EF22DC6636F4F /* UIView+MaterialElevationResponding.h in Headers */,
+				0857F4A0A5170223519A541324D501D1 /* UIViewController+MaterialBottomSheet.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		81F8F16E94C662011CFD8585710532C0 /* Pods-TimeStampCamera */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84E22A6FE38396D3EA596F01651D7261 /* Build configuration list for PBXNativeTarget "Pods-TimeStampCamera" */;
+			buildPhases = (
+				89FA99503C7BE8E230B55B58E6207804 /* Headers */,
+				D2E4AB7390A950821B6960CE3890899E /* Sources */,
+				C89E0443F9993088AD69F8633291D5B8 /* Frameworks */,
+				6A60E6AA2236695B2967D00B460E9120 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				314D1EB23542187FA16D54618D74C327 /* PBXTargetDependency */,
+				F61DDF304DE7D5684679689848717405 /* PBXTargetDependency */,
+				0B0AFFA78E10D4985E18BD540206CBA9 /* PBXTargetDependency */,
+			);
+			name = "Pods-TimeStampCamera";
+			productName = Pods_TimeStampCamera;
+			productReference = FE07EF913F36F1A28604BC46D3E4407D /* Pods-TimeStampCamera */;
+			productType = "com.apple.product-type.framework";
+		};
+		9A9A6DFBF33C0809BD9B32C8C8B776E8 /* FlexColorPicker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 338E3A98A137AD8DAD22F0E2D4CF379A /* Build configuration list for PBXNativeTarget "FlexColorPicker" */;
+			buildPhases = (
+				40DC6D78AA5CF92343141D67A8EBF3AD /* Headers */,
+				35144C8C6C1700246E295821BB90055A /* Sources */,
+				8BF55D61418E01E606930DE19C76D10C /* Frameworks */,
+				E7C474A141F2595658797C588C1DCA3C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FlexColorPicker;
+			productName = FlexColorPicker;
+			productReference = 741F9D3943FF7542B04631B29216270F /* FlexColorPicker */;
+			productType = "com.apple.product-type.framework";
+		};
+		B4723B5744013DF08BE3A5FEAA286944 /* MaterialComponents */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3430A461777558B27370E1B4231C5B1E /* Build configuration list for PBXNativeTarget "MaterialComponents" */;
+			buildPhases = (
+				F3CDDC65E7CD101F46D811CF6488BDA6 /* Headers */,
+				0E70C541B1BA5DCB244FDBB0909C272D /* Sources */,
+				806EAF997244349F9700E5E8B7E5CC0D /* Frameworks */,
+				E47546D5007EB72514DFA3633A6A4A54 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MaterialComponents;
+			productName = MaterialComponents;
+			productReference = A34157B3708EDB7D17422B3D92F591D2 /* MaterialComponents */;
+			productType = "com.apple.product-type.framework";
+		};
+		E9F9401E9C74C0C393164FD8D86D0068 /* DropDown */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 53052E6CBA1E65D6EF818199E617AC68 /* Build configuration list for PBXNativeTarget "DropDown" */;
+			buildPhases = (
+				97CE91431E229797751455423C79CA4F /* Headers */,
+				48864C435B3DB37698CF568C638CF98F /* Sources */,
+				808BE4E171BD75B6477EC2B77490C2B1 /* Frameworks */,
+				EFDE5B37A62BFF2F9A9BD2023B960CD7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DropDown;
+			productName = DropDown;
+			productReference = 9B6725B782188F18CB76A740433F14E4 /* DropDown */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 11.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = D6389D2508BBF5E878DD7B3B72CE9E86 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E9F9401E9C74C0C393164FD8D86D0068 /* DropDown */,
+				9A9A6DFBF33C0809BD9B32C8C8B776E8 /* FlexColorPicker */,
+				B4723B5744013DF08BE3A5FEAA286944 /* MaterialComponents */,
+				81F8F16E94C662011CFD8585710532C0 /* Pods-TimeStampCamera */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6A60E6AA2236695B2967D00B460E9120 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E47546D5007EB72514DFA3633A6A4A54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7C474A141F2595658797C588C1DCA3C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFDE5B37A62BFF2F9A9BD2023B960CD7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68E1653C561E14BBEAC9CF4873570D58 /* DropDownCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0E70C541B1BA5DCB244FDBB0909C272D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21C2DF0761AA28A45A9F6C8DAC8BB95F /* MaterialComponents-dummy.m in Sources */,
+				FBC9948E28523D40349053038524CE98 /* MaterialMathDummy.m in Sources */,
+				08784BF9A2CD964B6C9CD6576E15828E /* MaterialShadowElevationsDummy.m in Sources */,
+				C7459A453B5A596D1F88B4ECA19A266C /* MDCBottomSheetController.m in Sources */,
+				D1703BED647A3E4280F987F8B29B7E17 /* MDCBottomSheetPresentationController.m in Sources */,
+				4DBFE5EE09B12554C4D605AE2A7F030F /* MDCBottomSheetTransitionController.m in Sources */,
+				CA783762E9CE22EC71B1EC5FE8BC34D2 /* MDCCornerTreatment.m in Sources */,
+				4168DDEDC0ABE4FF5BC9A2E0F7735654 /* MDCCornerTreatment+CornerTypeInitalizer.m in Sources */,
+				3D1F5CF84D1D9A5411C289107D5E46C4 /* MDCCurvedCornerTreatment.m in Sources */,
+				23480436FE20EA0D43B753E874EAE238 /* MDCCurvedRectShapeGenerator.m in Sources */,
+				69D61566CEC2C01D069BE1912F9C2257 /* MDCCutCornerTreatment.m in Sources */,
+				11E0F8B5E2D4ABF76318A5DA04D260A0 /* MDCDraggableView.m in Sources */,
+				CE7F3874F5E191A93827397D3C7E79AB /* MDCEdgeTreatment.m in Sources */,
+				4CC566ECE05D4C6389ADA085AE960827 /* MDCKeyboardWatcher.m in Sources */,
+				C1F089DA25E38A92807D5A23CDA23A83 /* MDCPathGenerator.m in Sources */,
+				A003960743CDDEA027F6585C6E66D1AA /* MDCPillShapeGenerator.m in Sources */,
+				E79131FF7E60950C31430BD4D9BB7520 /* MDCRectangleShapeGenerator.m in Sources */,
+				E4CB3D731330D33F7F2A87BDF02E1A44 /* MDCRoundedCornerTreatment.m in Sources */,
+				59FD7DC38FBCC9C83454E82DAD24CAFC /* MDCShadowLayer.m in Sources */,
+				B4889B8C013EC29C883C1F1B7CE9598F /* MDCShapedShadowLayer.m in Sources */,
+				C45FA039C0EA19762B0FC4963582F5F6 /* MDCShapedView.m in Sources */,
+				0A4E8662941AEB6D26C19AFEBC8BB768 /* MDCShapeMediator.m in Sources */,
+				166896F7614D238E033F84793B537BC7 /* MDCSheetBehavior.m in Sources */,
+				6BEA016BDC68F0E57CDF6FE36D00D570 /* MDCSheetContainerView.m in Sources */,
+				787EAA9A8DC2F09D51D359554BE06216 /* MDCSlantedRectShapeGenerator.m in Sources */,
+				D4FB61A1028C0DB237F361088D2EA3C2 /* MDCTriangleEdgeTreatment.m in Sources */,
+				77DCE2EEB10AF4A0C22A604066A18233 /* UIApplication+MDCAppExtensions.m in Sources */,
+				9F80D19FEC3FDBA2EC0BDFE424C14FBB /* UIColor+MaterialBlending.m in Sources */,
+				A60161C5BADF9BB8676622C8D417F49C /* UIColor+MaterialDynamic.m in Sources */,
+				4A929112636F1B03B707BCCDFAFA9DF1 /* UIColor+MaterialElevation.m in Sources */,
+				ED2CDFAC7C9C9E3FDB95A031B8380E25 /* UIView+MaterialElevationResponding.m in Sources */,
+				07951EFE16A7D338F37AD4F558E70DA7 /* UIViewController+MaterialBottomSheet.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		35144C8C6C1700246E295821BB90055A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCB035BFC809F5A092499DFE9319E967 /* AbstractColorControl.swift in Sources */,
+				9CE445FA94FCD69779725FA2440A6FD8 /* AdjustedHitBoxColorControl.swift in Sources */,
+				62B0AE5C69C426B0613E35C1105A9263 /* CGPointExtension.swift in Sources */,
+				FA4165C30F007120A0061D64985A1C3E /* CGRectExtension.swift in Sources */,
+				A4363ECC3F8EA39A4FE0D8A84DABC6E0 /* CircleShapedView.swift in Sources */,
+				2E0E829853E688E1425CDC52E1EFCDB2 /* ColorControl.swift in Sources */,
+				3E16D118FE5520E9ED97FEFCB2D6FC23 /* ColorControlContentView.swift in Sources */,
+				AB240671C15F1E8759FE431FCDB34FF2 /* ColorPaletteControl.swift in Sources */,
+				9D1330DC67167B9BE31E129E9DAA5717 /* ColorPaletteDelegate.swift in Sources */,
+				48CCDC527BFC92E2B5409E8E5AA83C21 /* ColorPickerController.swift in Sources */,
+				1EBCA4F61F06DDF25EBF84A12E325D6D /* ColorPickerControllerProtocol.swift in Sources */,
+				47E0C0DB2BBAB310D70EB1F307089699 /* ColorPickerDelegate.swift in Sources */,
+				6CA88D78EDEBF118078D06712EE8C2F3 /* ColorPickerThumbView.swift in Sources */,
+				8740838639CB0A07D62838C670E294F6 /* ColorPreviewWithHex.swift in Sources */,
+				A90332024C9411863217799521D89900 /* ColorSliderControl.swift in Sources */,
+				FA90AA80C6FD95C594DFD4955C3EA556 /* ColorSliderDelegate.swift in Sources */,
+				7646E03FE6A36C0187301C353AA6459F /* ComponentSliderControls.swift in Sources */,
+				1DC255F222925038C5C66AB2EC838BE8 /* ComponentSliderDelegates.swift in Sources */,
+				A4CBDE2B1DFCCBB9795F8142C739B836 /* ControlWithThumbView.swift in Sources */,
+				F47ADF6F6C2B9137A8972E40AD2D2C29 /* CustomColorPickerViewController.swift in Sources */,
+				04295D7285B17C002ABF746D836E97FF /* DefaultColorPickerViewController.swift in Sources */,
+				71CA71FD244E8AB9B33C4FB32187669F /* FlexColorPicker-dummy.m in Sources */,
+				95355AF97A4A9D84DE7000A789301CA8 /* GradientView.swift in Sources */,
+				8DA3C6CF294542E420FBC089D70234F4 /* HSBColor.swift in Sources */,
+				97418B166FBD270A593014C58AAED10A /* LimitedGestureCircleView.swift in Sources */,
+				69128D7359FA88A5AD353CF5D77A8837 /* LimitedGestureViewDelegate.swift in Sources */,
+				77DD698F6FC06A9B29DCD5CC6A3F8521 /* PaletteAwareScrollView.swift in Sources */,
+				9304E779EF93A87099DF87507B5E525A /* PaletteControls.swift in Sources */,
+				C0E08E3F92F4FD10789F379EFCB2D0C4 /* RadialHSBPaletteDelegate.swift in Sources */,
+				3E7D42CBB29E683F4B21535A748ED234 /* RectangularHSBPaletteDelegate.swift in Sources */,
+				8175A97966E068EE204DA842337A1254 /* UIColorExtension.swift in Sources */,
+				C2896E99CF6C700E0CFC00B11CFFC0E4 /* UIImageExtension.swift in Sources */,
+				82FBB5309A78043862B74ABE56BB6274 /* UIImageViewExtension.swift in Sources */,
+				5E47EC775681C59C467F5954D516BE2D /* UIViewExtension.swift in Sources */,
+				B86419765F5D00C53B7DAEC72EA8DD8D /* UIViewWithCommonInit.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48864C435B3DB37698CF568C638CF98F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74012B832FAF67F8D62A2B27CDAFE8B5 /* DPDConstants.swift in Sources */,
+				89A72A55273CE358DC4E7600F785C37B /* DPDKeyboardListener.swift in Sources */,
+				B73E510E851686F8184E26986A470458 /* DPDUIView+Extension.swift in Sources */,
+				84459C4824533C9C4FD12AFC941F3CE1 /* DropDown.swift in Sources */,
+				515E22E4255B6073C1897BDDB091A2B8 /* DropDown+Appearance.swift in Sources */,
+				907338727C09F65DB75AA7AB9E10C3B4 /* DropDown-dummy.m in Sources */,
+				BDC10974A8641F01C5665C61EA37A153 /* DropDownCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2E4AB7390A950821B6960CE3890899E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5AE89E108877483FF448A4D43D1F13FE /* Pods-TimeStampCamera-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0B0AFFA78E10D4985E18BD540206CBA9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MaterialComponents;
+			target = B4723B5744013DF08BE3A5FEAA286944 /* MaterialComponents */;
+			targetProxy = FB43ED1B2CFB49C7F5E6D69F905D5F34 /* PBXContainerItemProxy */;
+		};
+		314D1EB23542187FA16D54618D74C327 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = DropDown;
+			target = E9F9401E9C74C0C393164FD8D86D0068 /* DropDown */;
+			targetProxy = C10C771068A0728DDEC6CE969BC1421B /* PBXContainerItemProxy */;
+		};
+		F61DDF304DE7D5684679689848717405 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FlexColorPicker;
+			target = 9A9A6DFBF33C0809BD9B32C8C8B776E8 /* FlexColorPicker */;
+			targetProxy = D843C3141530A35C618279112C6BFE37 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		11D6690C8FB8E0980DAC346E84F273A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F5ACA18697793919DEC9DF6AA965219E /* FlexColorPicker.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FlexColorPicker/FlexColorPicker-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FlexColorPicker/FlexColorPicker-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/FlexColorPicker/FlexColorPicker.modulemap";
+				PRODUCT_MODULE_NAME = FlexColorPicker;
+				PRODUCT_NAME = FlexColorPicker;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		34E159C4F20578379EC0D11FD3B91A1F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C63FC8B2538713879DD3D7C9F29684FE /* FlexColorPicker.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FlexColorPicker/FlexColorPicker-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FlexColorPicker/FlexColorPicker-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/FlexColorPicker/FlexColorPicker.modulemap";
+				PRODUCT_MODULE_NAME = FlexColorPicker;
+				PRODUCT_NAME = FlexColorPicker;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4ADD3E276E51705EC7DF88FD9E93F1E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C501D1A6DAE22C0B5187273FBA2FD554 /* Pods-TimeStampCamera.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TimeStampCamera/Pods-TimeStampCamera-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TimeStampCamera/Pods-TimeStampCamera.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		593F10BFFA94DAC7D6E17FB8A7F32D72 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		768B04BB6892857F54A81F2AAE5367AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1368232C5CDD470E63612EEAC4B288A6 /* Pods-TimeStampCamera.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TimeStampCamera/Pods-TimeStampCamera-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TimeStampCamera/Pods-TimeStampCamera.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8ACB16A4352C17A16971FCF8E85D8FBA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EE592ED2C0CB3855D136EF562F6B354F /* MaterialComponents.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MaterialComponents/MaterialComponents-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MaterialComponents/MaterialComponents-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/MaterialComponents/MaterialComponents.modulemap";
+				PRODUCT_MODULE_NAME = MaterialComponents;
+				PRODUCT_NAME = MaterialComponents;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A0374B8CF9A7D6A45F6D116D698D1C19 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		B72FB33FD6F6E113C96F39CC53FDD48D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A9B4957D65E8DFB2BC5B114A3235D9BD /* MaterialComponents.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MaterialComponents/MaterialComponents-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MaterialComponents/MaterialComponents-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/MaterialComponents/MaterialComponents.modulemap";
+				PRODUCT_MODULE_NAME = MaterialComponents;
+				PRODUCT_NAME = MaterialComponents;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C24518E891FAA59668669823639498EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2D93CEF81D27A173344D3563A6C349FF /* DropDown.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/DropDown/DropDown-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DropDown/DropDown-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/DropDown/DropDown.modulemap";
+				PRODUCT_MODULE_NAME = DropDown;
+				PRODUCT_NAME = DropDown;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E2CDE7BD114C532701D2E79C5CB4CAA8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E8202F58A843F2E4D157B30DBB1FB9F9 /* DropDown.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/DropDown/DropDown-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DropDown/DropDown-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/DropDown/DropDown.modulemap";
+				PRODUCT_MODULE_NAME = DropDown;
+				PRODUCT_NAME = DropDown;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		338E3A98A137AD8DAD22F0E2D4CF379A /* Build configuration list for PBXNativeTarget "FlexColorPicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34E159C4F20578379EC0D11FD3B91A1F /* Debug */,
+				11D6690C8FB8E0980DAC346E84F273A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3430A461777558B27370E1B4231C5B1E /* Build configuration list for PBXNativeTarget "MaterialComponents" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B72FB33FD6F6E113C96F39CC53FDD48D /* Debug */,
+				8ACB16A4352C17A16971FCF8E85D8FBA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0374B8CF9A7D6A45F6D116D698D1C19 /* Debug */,
+				593F10BFFA94DAC7D6E17FB8A7F32D72 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		53052E6CBA1E65D6EF818199E617AC68 /* Build configuration list for PBXNativeTarget "DropDown" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E2CDE7BD114C532701D2E79C5CB4CAA8 /* Debug */,
+				C24518E891FAA59668669823639498EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84E22A6FE38396D3EA596F01651D7261 /* Build configuration list for PBXNativeTarget "Pods-TimeStampCamera" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				768B04BB6892857F54A81F2AAE5367AF /* Debug */,
+				4ADD3E276E51705EC7DF88FD9E93F1E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

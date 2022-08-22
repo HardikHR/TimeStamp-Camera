@@ -1,0 +1,16 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "SwiftColorWheel",
+        "repositoryURL": "https://github.com/dmrschmidt/SwiftColorWheel",
+        "state": {
+          "branch": null,
+          "revision": "579042b1c6217d37d624eeeafea6ff5da3b4c4d0",
+          "version": "1.5.0"
+        }
+      }
+    ]
+  },
+  "version": 1
+}
